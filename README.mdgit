@@ -1,0 +1,2 @@
+"# ESCOM-IA-2023-1"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/eliottvaldes/ESCOM-IA-2023-1.gitgit push -u origin main
+"# ESCOM-IA-2023-1"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/eliottvaldes/ESCOM-IA-2023-1.gitgit push -u origin main

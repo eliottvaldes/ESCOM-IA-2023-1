@@ -1,0 +1,50 @@
+USE IEEE.STD_LOGIC_1164.ALL;
+
+-- ENTITY DECLARATION FOR THE COMPONENT
+ENTITY P2 IS
+    PORT (CLK, PRE, CLR, T, D: IN STD_LOGIC;
+    SR, JK, SEL: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    Q: OUT STD_LOGIC_VECTOR(1 DOWNTO 0)
+    );
+-- END OF ENTITY DECLARATION
+END P2;
+
+-- ARCHITECTURE DECLARATION FOR THE COMPONENT
+ARCHITECTURE A_P2 OF P2 IS
+BEGIN
+PROCESS (CLK, CLR, PRE, SEL, SR, JK, T, D)
+BEGIN
+IF (CLR = '0') THEN
+    Q <= "01";
+
+ELSIF (CLK'EVENT AND CLK = '1') THEN
+    IF (PRE = '1') THEN
+        Q(1) <= '1';
+        Q(0) <= '0';
+
+    -- DECLARATION OF MUX 4-1
+    ELSE
+        CASE SEL IS
+            WHEN "00" =>
+                -- DESCRIBE THE CHARACTERISTIC EQUATION OF FLIP FLOP SR
+                -- DESCRIBE AS A VECTOR
+                -- DESCRIBE THE OUTPUT OF THE FLIP FLOP
+            WHEN "01" =>
+                -- DESCRIBE THE CHARACTERISTIC EQUATION OF FLIP FLOP JK
+                Q(1) <= JK(1) AND (Q(0)) OR (NOT JK(0)) AND Q(1);
+                Q(0) <= NOT (JK(1) AND (Q(0)) OR (NOT JK(0)) AND Q(1));
+
+            WHEN "10" =>
+                -- DESCRIBE THE CHARACTERISTIC EQUATION OF FLIP FLOP T
+                Q(1) <= T AND (Q(0)) OR (NOT T) AND Q(1);
+                Q(0) <= NOT (T AND (Q(0)) OR (NOT T) AND Q(1));
+
+            WHEN OTHERS =>
+                -- DESCRIBE THE CHARACTERISTIC EQUATION OF FLIP FLOP D
+                Q(1) <= D;
+                Q(0) <= NOT D;
+        END CASE;
+    END IF;
+END IF;
+END PROCESS;
+END A_P2;
