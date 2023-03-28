@@ -13,19 +13,29 @@ int main() {
     clock_t inicio, fin; // Variables para medir el tiempo de ejecución
     int n, valor, resultado;
 
+    inicio = clock(); // Inicio del tiempo de ejecución
+
+    // Pedir el tamaño del arreglo
     printf("Ingrese el tamaño del arreglo: ");
     scanf("%d", &n);
 
+    // Generar el arreglo
     int *arr = generar_arreglo(n);
     
+    // Imprimir el arreglo generado
     printf("Arreglo generado: ");
+    imprimir_arreglo(arr, n);    
+
+    // Ordenar el arreglo
+    ordenar_arreglo(arr, n);
+    printf("Arreglo ordenado: ");
     imprimir_arreglo(arr, n);
 
-    inicio = clock(); // Inicio del tiempo de ejecución
-
+    // Pedir el valor a buscar
     printf("Ingrese el valor a buscar: ");
     scanf("%d", &valor);
 
+    // Buscar el valor en el arreglo
     resultado = busqueda_secuencial(arr, n, valor);
     if (resultado != -1) {
         printf("El valor %d fue encontrado en la posición %d.\n", valor, resultado);
@@ -33,10 +43,6 @@ int main() {
         printf("El valor %d no se encuentra en el arreglo.\n", valor);
     }
 
-    ordenar_arreglo(arr, n);
-
-    printf("Arreglo ordenado: ");
-    imprimir_arreglo(arr, n);
 
     fin = clock(); // Fin del tiempo de ejecución
 
@@ -46,6 +52,12 @@ int main() {
     return 0;
 }
 
+/**
+ * @brief Función que genera un arreglo de tamaño n con números aleatorios entre 0 y 99
+ * 
+ * @param n 
+ * @return int* 
+ */
 int* generar_arreglo(int n) {
     int *arr = (int *) malloc(n * sizeof(int));
 
@@ -56,6 +68,12 @@ int* generar_arreglo(int n) {
     return arr;
 }
 
+/**
+ * @brief Función que imprime un arreglo de tamaño n
+ * 
+ * @param arr 
+ * @param n 
+ */
 void imprimir_arreglo(int *arr, int n) {
     printf("[");
     for (int i = 0; i < n; i++) {
@@ -67,6 +85,15 @@ void imprimir_arreglo(int *arr, int n) {
     printf("]\n");
 }
 
+/**
+ * @brief Función que busca un elemento en un arreglo de tamaño n de datos tipo int
+ * Busqueda secuencial
+ * 
+ * @param arr 
+ * @param n 
+ * @param valor 
+ * @return int 
+ */
 int busqueda_secuencial(int *arr, int n, int valor) {
     for (int i = 0; i < n; i++) {
         if (arr[i] == valor) {
@@ -76,6 +103,14 @@ int busqueda_secuencial(int *arr, int n, int valor) {
     return -1;
 }
 
+
+/**
+ * @brief Función que ordena un arreglo de tamaño n de datos tipo int
+ * Ordenamiento burbuja
+ * 
+ * @param arr 
+ * @param n 
+ */
 void ordenar_arreglo(int *arr, int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
