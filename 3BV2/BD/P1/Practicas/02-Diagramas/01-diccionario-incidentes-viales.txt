@@ -1,0 +1,157 @@
+** PARA LA NORMALIZACION VAMOS A UTILIZAR EL DATASET DE LA PRACTICA1 SIN NORMALIZAR **
+
+-------------------------------------------------------
+ATRIBUTOS DE TABLA DE DATOS DEL DATASET SIN NORMALIZAR (NO NORMALIZADA)
+-------------------------------------------------------
+folio
+fecha_creacion
+hora_creacion
+fecha_cierre
+hora_cierre
+mes_cierre
+aÃ±o_cierre
+latitud
+longitud
+geopoint
++
+mes
+dia_semana
++
+delegacion_inicio
+delegacion_cierre
+incidente_c4
+tipo_entrada
+clas_con_f_alarma
+codigo_cierre
+
+
+-------------------------------------------------------
+ATRIBUTOS RESTANTES SIN POSIBILIDAD DE NORMALIZACION
+-------------------------------------------------------
+folio
+fecha_creacion
+hora_creacion
+fecha_cierre
+hora_cierre
+latitud
+longitud
+geopoint
+
+
+
+*******************************************************
+CATALOGOS
+*******************************************************
+
+- cat_delegaciones
+    * delegacion (PK)
+    * descripcion (PK)
+
+- cat_tipo_incidente_c4
+    * tipo_incidente_c4 (PK)
+    * descripcion (PK)
+
+- cat_tipo_entrada
+    * tipo_entrada (PK)
+    * descripcion (PK)
+
+- cat_clas_con_f_alarma
+    * clas_con_f_alarma (PK)
+    * descripcion (PK)
+
+-cat_codigo_cierre
+    * codigo_cierre (PK)
+    * descripcion (PK)
+
+
+- cat_dia_semana
+    * dia_semana (PK)
+    * descripcion (PK)
+
+- cat_mes
+    * mes (PK)
+    * descripcion (PK)
+
+- cat_año
+    * año (PK)
+    * descripcion (PK)
+
+
+*******************************************************
+TABLAS DE DATOS
+*******************************************************
+
+- incidente
+    * folio (PK)
+    * datetime_creacion
+    * datetime_cierre
+    * delegacion_inicio (FK)
+    * delegacion_cierre (FK)
+    * incidente_c4 (FK)
+    * tipo_entrada (FK)
+    * clas_con_f_alarma (FK)
+    * codigo_cierre (FK)
+    * latitud
+    * longitud
+
+- incidente_detalle
+    * folio (PK)
+    * año_creacion (FK)
+    * mes_creacion (FK)
+    * dia_semana_creacion (FK)
+    * año_cierre (FK)
+    * mes_cierre (FK)
+    * dia_semana_cierre (FK)
+    * geopoint
+
+
+///////////////////////////////////////////////////
+TABLAS DE DATOS NORMALIZADAS A 3NF
+///////////////////////////////////////////////////
+
+- tabla_incidentes_dia_semana
+    * folio (PK)
+    * dia_semana (FK)
+
+- tabla_incidentes_mes
+    * folio (PK)
+    * mes (FK)
+
+- tabla_incidentes_año
+    * folio (PK)
+    * año (FK)
+
+- tabla_incidentes_delegacion_inicio
+    * folio (PK)
+    * delegacion_inicio (FK)
+
+- tabla_incidentes_delegacion_cierre
+    * folio (PK)
+    * delegacion_cierre (FK)
+
+- tabla_incidentes_incidente_c4
+    * folio (PK)
+    * incidente_c4 (FK)
+
+- tabla_incidentes_tipo_entrada
+    * folio (PK)
+    * tipo_entrada (FK)
+
+- tabla_incidentes_clas_con_f_alarma
+    * folio (PK)
+    * clas_con_f_alarma (FK)
+
+- tabla_incidentes_codigo_cierre
+    * folio (PK)
+    * codigo_cierre (FK)
+
+- tabla_incidentes_mes_cierre
+    * folio (PK)
+    * mes_cierre (FK)
+
+- tabla_incidentes_año_cierre
+    * folio (PK)
+    * año_cierre (FK)
+
+
+

@@ -1,0 +1,99 @@
+*******************************************************
+CATALOGOS DE DATOS
+*******************************************************
+////// INICIAN CATALOGOS DE IMPORTANCIA PRIMORDIAL //////
+- cat_delegacion
+    * delegacion (PK)
+    * descripcion (PK)
+
+////// INICIAN CATALOGOS DE DATOS DEL DATASET DE INCIDENTES_VIALES //////
+- cat_tipo_incidente_c4
+    * tipo_incidente_c4 (PK)
+    * descripcion (PK)
+
+- cat_tipo_entrada
+    * tipo_entrada (PK)
+    * descripcion (PK)
+
+- cat_clas_con_f_alarma
+    * clas_con_f_alarma (PK)
+    * descripcion (PK)
+
+-cat_codigo_cierre
+    * codigo_cierre (PK)
+    * descripcion (PK)
+
+////// INICIAN CATALOGOS DE DATOS DEL INEGI //////
+- cat_sexo:
+    * H -> hombre
+    * M -> mujer
+
+- cat_rango_edad:
+    * 0-4
+    * 5-9
+    * 10-14
+    * 15-19
+    * 20-24
+    * 25-29
+    * 30-34
+    * 35-39
+    * 40-44
+    * 45-49
+    * 50-54
+    * 55-59
+    * 60-64
+    * 65-69
+    * 70-74
+    * 75-79
+    * 80-84
+    * 85-100
+
+////// INICIAN CATALOGOS DE DATOS DE SOPORTE //////
+- cat_dia_semana
+    * dia_semana (PK)
+    * descripcion (PK)
+
+- cat_mes
+    * mes (PK)
+    * descripcion (PK)
+
+- cat_año
+    * año (PK)
+    * descripcion (PK)
+
+
+
+*******************************************************
+TABLAS DE DATOS
+*******************************************************
+
+////// INICIAN TABLAS DE DATOS DEL DATASET DE INCIDENTES_VIALES //////
+- incidente
+    * folio (PK)
+    * datetime_creacion
+    * datetime_cierre
+    * delegacion_inicio (FK)
+    * delegacion_cierre (FK)
+    * incidente_c4 (FK)
+    * tipo_entrada (FK)
+    * clas_con_f_alarma (FK)
+    * codigo_cierre (FK)
+    * latitud
+    * longitud
+
+- incidente_detalle
+    * folio (PK)
+    * año_creacion (FK)
+    * mes_creacion (FK)
+    * dia_semana_creacion (FK)
+    * año_cierre (FK)
+    * mes_cierre (FK)
+    * dia_semana_cierre (FK)
+    * geopoint
+
+////// INICIAN TABLAS DE DATOS DEL INEGI //////
+- poblacion_habitantes:
+    * clave_delegacion (PK)(FK) -> clave de la delegación
+    * sexo (FK) -> sexo
+    * rango_edad (FK) -> rango de edad
+    * poblacion -> cantidad de personas

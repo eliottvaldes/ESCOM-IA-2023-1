@@ -1,0 +1,52 @@
+-------------------------------------------------------
+GENERALIDADES DE LA PRACTICA2
+-------------------------------------------------------
+Procedimiento:
+- Analice la narrativa del planteamiento del problema del proyecto, defina claramente el alcance del mismo
+- Identificar REQUISITOS DE DATOS:  POSIBLES TABLAS/ENTIDADES 
+- Identificar REQUISITOS DE DATOS:  TIPOS DE DATOS / ATRIBUTOS Y TIPOS DE DATO
+- Identificar REQUISITOS DE DATOS: POSIBLES RELACIONES  entre tablas para proponer un primer modelo CONCEPTUAL   de base de datos (ver fig. 1). 
+- Recuerde que está proponiendo un prototipo de base de datos.
+
+0. Planteamiento del problema: 
+***(IMPORTANTE)
+UNA EMPRESA DE PUBLICIDAD NECESITA ANALIZAR LA CANTIDAD DE INCIDENTES VIALES EN LAS DIFERENTES DELEGACIONES DE LA CIUDAD DE MÉXICO. EL CLIENTE NECESITA TODA LA INFORMACIÓN DEFINIDA EN EL DICCIONARIO DE DATOS DE INCIDENTES VIALES DE LA CIUDAD DE MÉXICO. PERO EL CLIENTE REQUIERE QUE EN LA BASE DE DATOS SE INCLUYA INFORMACIÓN DE  CARACTERÍSTICAS DE LA POBLACIÓN POR DELEGACIÓN. 
+EL USO DE LA BASE ES PARA REALIZAR ANÁLISIS ESTADÍSTICOS EN TIEMPO (DD-MM-AAAA) Y EN ESPACIO (LUGAR), POR EJEMPLO PARA CONOCER ¿CUÁL ES LA DELEGACIÓN DONDE OCURREN LA MAYOR CANTIDAD DE INCIDENTES VIALES Y CUÁNTAS MUJERES VIVEN EN LA MISMA?
+
+Procedimiento “sugerido” para el diseño de base de datos: 
+1.- Repase el ciclo de vida de las bases de datos, en la lectura rápida para la unidad 1 y responda, ¿en qué estado(s) se encontraría la base de datos solicitada? ¿por qué?, argumente su respuesta. 
+2.- Analice y explore las columnas y filas del dataset de “incidentes viales” disponible en la siguiente página (esto le permitirá obtener ideas o identificar los posibles atributos a almacenar en  su propuesta de base datos): 
+
+
+
+
+
+-------------------------------------------------------
+COMPARACION DE DICCIONARIOS DE DATOS DE DATASET DE PRACTICA1(INCIDENTES_VIALES) Y SEGOB
+-------------------------------------------------------
+* 'atributos_en_dataset_practica1' => 'atributos_en_dataset_segob'
+
+folio => folio
+fecha_creacion => fecha_creación
+hora_creación => hora_creación
+dia_semana => dia_semana
+codigo_cierre => código_cierre
+fecha_cierre => fecha_cierre
+hora_cierre => hora_cierre
+delegacion_inicio => delegación_inicio
+incidente_c4 => incidente_c4
+latitud => latitud
+longitud => longitud
+clas_con_f_alarma => clas_con_f_alarma
+tipo_entrada => tipo_entrada
+delegacion_cierre => delegación_cierre
++
+aÃ±o_cierre => 
+mes_cierre => 
+geopoint => 
+mes => 
+
+-------------------------------------------------------
+DICCIONARIO DE DATOS DE SEGOB QUE NO SE ENCUENTRAN EN EL DATASET
+-------------------------------------------------------
+'' => tipo_incidente_c4

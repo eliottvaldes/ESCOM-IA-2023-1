@@ -1,0 +1,122 @@
+>> DESCRIPCION DETALLADA DE CADA UNA DE LAS TABLAS Y CATALOGOS
+>> SE MUESTRAN LOS SIGUIENTES DATOS SEPARADOS POR ',':
+>> FIELD, TYPE, NULL, KEY, DEFAULT, EXTRA
+
+
+*******************************************************
+CATALOGOS DE DATOS
+*******************************************************
+
+------
+////// INICIAN CATALOGOS DE IMPORTANCIA PRIMORDIAL //////
+------
+
+- cat_delegacion
+'clave_delegacion', 'int', 'NO', 'PRI', NULL, ''
+'delegacion', 'varchar(100)', 'NO', '', NULL, ''
+'descripcion', 'varchar(500)', 'YES', '', NULL, ''
+		
+
+------
+////// INICIAN CATALOGOS DE DATOS DEL DATASET DE INCIDENTES_VIALES //////
+------
+
+- cat_incidente_tipo_c4
+'clave_tipo_incidente_c4', 'int', 'NO', 'PRI', NULL, ''
+'tipo_incidente', 'varchar(45)', 'NO', '', NULL, ''
+'descripcion', 'varchar(500)', 'YES', '', NULL, ''
+
+
+- cat_incidente_tipo_entrada
+'clave_tipo_entrada', 'int', 'NO', 'PRI', NULL, ''
+'tipo_entrada', 'varchar(50)', 'NO', '', NULL, ''
+'descripcion', 'varchar(500)', 'YES', '', NULL, ''
+
+
+- cat_incidente_clasificacion
+'clave_clasificacion', 'int', 'NO', 'PRI', NULL, ''
+'clasificacion', 'varchar(50)', 'NO', '', NULL, ''
+'descripcion', 'varchar(500)', 'YES', '', NULL, ''
+
+
+- cat_incidente_codigo_cierre
+'clave_codigo_cierre', 'int', 'NO', 'PRI', NULL, ''
+'codigo_cierre', 'varchar(50)', 'NO', '', NULL, ''
+'descripcion', 'varchar(500)', 'YES', '', NULL, ''
+
+
+------
+////// INICIAN CATALOGOS DE DATOS DEL INEGI //////
+------
+
+- cat_inegi_sexo:
+'clave_sexo', 'int', 'NO', 'PRI', NULL, ''
+'sexo', 'enum(\'H\',\'M\')', 'NO', '', NULL, ''
+'descripcion', 'varchar(20)', 'YES', '', NULL, ''
+
+
+- cat_inegi_rango_edad:
+'clave_rango_edad', 'int', 'NO', 'PRI', NULL, ''
+'rango', 'varchar(45)', 'NO', '', NULL, ''
+
+
+------
+////// INICIAN CATALOGOS DE DATOS DE SOPORTE //////
+------
+
+- cat_fecha_dia_semana
+'clave_dia_semana', 'int', 'NO', 'PRI', NULL, ''
+'dia_semana', 'varchar(10)', 'NO', '', NULL, ''
+
+
+- cat_fecha_mes
+'clave_mes', 'int', 'NO', 'PRI', NULL, ''
+'mes', 'varchar(10)', 'NO', '', NULL, ''
+
+
+- cat_fecha_anio
+'clave_anio', 'int', 'NO', 'PRI', NULL, ''
+'anio', 'int', 'NO', '', NULL, ''
+	
+
+
+*******************************************************
+TABLAS DE DATOS
+*******************************************************
+
+------
+////// INICIAN TABLAS DE DATOS DEL DATASET DE INCIDENTES_VIALES //////
+------
+
+- t_incidente
+'incidente_folio', 'varchar(100)', 'NO', 'PRI', NULL, ''
+'clave_delegacion_inicio', 'int', 'NO', 'MUL', NULL, ''
+'clave_delegacion_cierre', 'int', 'NO', 'MUL', NULL, ''
+'clave_incidente_c4', 'int', 'NO', 'MUL', NULL, ''
+'clave_tipo_entrada', 'int', 'NO', 'MUL', NULL, ''
+'clave_clasificacion', 'int', 'NO', 'MUL', NULL, ''
+'clave_codigo_cierre', 'int', 'NO', 'MUL', NULL, ''
+'timestamp_creacion', 'datetime', 'NO', '', NULL, ''
+'timestamp_cierre', 'datetime', 'NO', '', NULL, ''
+'latitud', 'varchar(60)', 'NO', '', NULL, ''
+'longitud', 'varchar(60)', 'NO', '', NULL, ''
+
+
+- t_incidente_detalle
+'incidente_folio', 'varchar(100)', 'NO', 'PRI', NULL, ''
+'clave_creacion_anio', 'int', 'NO', 'MUL', NULL, ''
+'clave_creacion_mes', 'int', 'NO', 'MUL', NULL, ''
+'clave_creacion_dia_semana', 'int', 'NO', 'MUL', NULL, ''
+'clave_cierre_anio', 'int', 'NO', 'MUL', NULL, ''
+'clave_cierre_mes', 'int', 'NO', 'MUL', NULL, ''
+'clave_cierre_dia_semana', 'int', 'NO', 'MUL', NULL, ''
+'geopoint', 'varchar(200)', 'YES', '', NULL, ''
+
+
+------
+////// INICIAN TABLAS DE DATOS DEL INEGI //////
+- t_delegacion_edad:
+'clave_delegacion', 'int', 'NO', 'PRI', NULL, ''
+'clave_sexo', 'int', 'NO', 'MUL', NULL, ''
+'clave_rango_edad', 'int', 'NO', 'MUL', NULL, ''
+'cantidad', 'double', 'NO', '', NULL, ''
