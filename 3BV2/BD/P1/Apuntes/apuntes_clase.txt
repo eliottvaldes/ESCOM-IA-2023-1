@@ -1,0 +1,19 @@
+requisitos de datos
+
+- objetos a almacenar
+- propiedades
+* caracteristicas de los objetos
+- reglas de negocio
+* limitantes o restricciones
+
+
+
+DISEÑO
+- modelo logico y fisico de datos (diagramas)
+
+IMPLEMENTACION
+- implementar db en hardware y cargar datos
+
+OPERACION Y MANTENIMIENTO
+
+CRECIMIENTO Y CAMBIO
