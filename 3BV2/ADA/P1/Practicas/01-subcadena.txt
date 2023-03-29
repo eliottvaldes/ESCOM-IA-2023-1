@@ -1,0 +1,24 @@
+Escribir un programa en C que encuentra una subcadena dentro de otra usando recursividad,
+la primera cadena es de tamaño n y la segunda es de tamaño m, donde
+
+ejemplo:
+mamemi
+mimamamemima
+
+particular:
+ooohaaa
+ooooooooohaoohaaoooooooooooohaaaa
+
+Encontrar una expresion (funcion que relacione a n y m) aritmetica
+
+Hacer el programa y encontrar la complejidad
+de modo tal de que se construya un arbol de llamadas recursivas
+
+
+
+PARA EXAMEN
+TRAER 4 HOJAS IMPRESAS CON LOS SIGUENTES DATOS
+NOMBRE - FECHA- GRUPO
+
+CORREO DE PROFESOR
+fmacias2003@yahoo.co.uk

@@ -1,0 +1,18 @@
+El primer codigo tiene tiempos de ejecucion diferentes dependiendo de la entrada
+
+Tomando el caso de la entrada de datos de manera ASCENDENTE
+-> T(n) = n
+
+* ejemplo de entrada: 123
+m(123) -> m(23) -> m(3)
+
+Tomando el caso de la entrada de datos de manera DESCENDENTE
+-> T(n) = (n^2) -1
+
+* ejemplo de entrada: 321
+m(321) -> m(21) -> m(1) -> m(1) -> m(21) -> m(1) -> m(1)
+
+
+
+Ahora juntando ambos casos, tenemos que nuestra cota superior es T(n) = (n^2) -1 y nuestra cota inferior es T(n) = n
+SI graficamos, el primer caso es una recta a 45 grados y el segundo caso es una curva de (2^n)-1
