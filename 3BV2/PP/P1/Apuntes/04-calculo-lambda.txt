@@ -1,0 +1,10 @@
+Calculo lambda
+
+- modelo de computacion creado por Alonzo Church
+- Esta basado en principios matematicos abstractor
+- se puede definir como funciones anonimas que se llaman
+
+Ejemplos
+>> (lambda x:x)(2) -> 2
+>> (lambda x:x%2)(3) -> 1
+

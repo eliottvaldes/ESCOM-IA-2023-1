@@ -1,0 +1,52 @@
+Clasificacion de datos
+
+- Contamos con un archivo dataset que se divide en dos partes:
+    -  Datos de entrenamiento: 80% de los datos
+    -  Datos de prueba: 20% de los datos
+
+- Lo que se busca es que el modelo pueda predecir la clase de un nuevo dato que no se encuentra en el dataset.
+
+- El modelo de ML más adecuado puede ser:
+        * Bayes 
+        * RNA
+        * SVM
+        * 1NN
+        * Minima distancia
+        -  Regresión logística
+        -  Árboles de decisión
+        -  Random forest
+        -  KNN
+        -  SVM
+        -  Naive Bayes
+        -  Redes neuronales
+
+- Para evaluar el modelo se puede utilizar:
+        -  Matriz de confusión
+        -  Precisión
+        -  Recall
+        -  F1-score
+        -  Curva ROC
+        -  Curva AUC
+
+- Para seleccionar el modelo se puede utilizar:
+        -  Cross validation
+        -  Grid search
+
+- Para mejorar el modelo se puede utilizar:
+        -  Feature engineering
+        -  Feature selection
+        -  Feature extraction
+        -  Oversampling
+        -  Undersampling
+        -  SMOTE
+        -  Ensamble learning    
+
+
+**Ejemplo de un proyecto de ML**
+
+
+- Vamos usar el dataset de Iris Plant Database, 
+que contiene 150 registros de 3 especies de flores de iris 
+(Setosa, Versicolor y Virginica) 
+con 4 características 
+(longitud y ancho del sépalo y pétalo) cada uno.
