@@ -61,6 +61,14 @@ CATALOGOS DE DATOS
     * año (PK)
     * descripcion (PK)
 
+- cat_fecha
+    * fecha (PK)
+    * anio (FK)
+    * mes (FK)
+    * dia_semana (FK)
+    * festivo
+    * festividades
+
 
 
 *******************************************************
@@ -70,29 +78,21 @@ TABLAS DE DATOS
 ////// INICIAN TABLAS DE DATOS DEL DATASET DE INCIDENTES_VIALES //////
 - incidente
     * folio (PK)
-    * datetime_creacion
-    * datetime_cierre
     * delegacion_inicio (FK)
     * delegacion_cierre (FK)
     * incidente_c4 (FK)
     * tipo_entrada (FK)
     * clas_con_f_alarma (FK)
     * codigo_cierre (FK)
+    * fecha_creacion (FK)
+    * fecha_cierre (FK)
+    * hora_creacion
+    * hora_cierre
     * latitud
     * longitud
 
-- incidente_detalle
-    * folio (PK)
-    * año_creacion (FK)
-    * mes_creacion (FK)
-    * dia_semana_creacion (FK)
-    * año_cierre (FK)
-    * mes_cierre (FK)
-    * dia_semana_cierre (FK)
-    * geopoint
-
 ////// INICIAN TABLAS DE DATOS DEL INEGI //////
-- poblacion_habitantes:
+- delegacion_habitantes:
     * clave_delegacion (PK)(FK) -> clave de la delegación
     * sexo (FK) -> sexo
     * rango_edad (FK) -> rango de edad

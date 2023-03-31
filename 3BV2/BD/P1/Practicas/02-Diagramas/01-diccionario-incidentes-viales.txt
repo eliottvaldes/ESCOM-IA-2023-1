@@ -76,6 +76,13 @@ CATALOGOS
     * año (PK)
     * descripcion (PK)
 
+- cat_fecha 
+    * fecha (PK)
+    * anio (FK)
+    * mes (FK)
+    * dia_semana (FK)
+    * festividades 
+    * festivo
 
 *******************************************************
 TABLAS DE DATOS
@@ -83,26 +90,18 @@ TABLAS DE DATOS
 
 - incidente
     * folio (PK)
-    * datetime_creacion
-    * datetime_cierre
     * delegacion_inicio (FK)
     * delegacion_cierre (FK)
     * incidente_c4 (FK)
     * tipo_entrada (FK)
     * clas_con_f_alarma (FK)
     * codigo_cierre (FK)
+    * fecha_creacion (FK)
+    * fecha_cierre (FK)
+    * hora_creacion
+    * hora_cierre
     * latitud
     * longitud
-
-- incidente_detalle
-    * folio (PK)
-    * año_creacion (FK)
-    * mes_creacion (FK)
-    * dia_semana_creacion (FK)
-    * año_cierre (FK)
-    * mes_cierre (FK)
-    * dia_semana_cierre (FK)
-    * geopoint
 
 
 ///////////////////////////////////////////////////

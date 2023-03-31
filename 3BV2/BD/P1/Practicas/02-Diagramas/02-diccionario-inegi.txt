@@ -33,7 +33,7 @@ CATALOGOS DE DATOS
 TABLAS DE DATOS
 -------------------------------
 
-- poblacion_habitantes:
+- delegacion_habitantes:
     * clave_delegacion (PK)(FK) -> clave de la delegación
     * sexo (FK) -> sexo
     * rango_edad (FK) -> rango de edad
