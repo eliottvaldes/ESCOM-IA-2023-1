@@ -1,0 +1,14 @@
+Ejercicio de Laboratorio 2. 
+Paradigmas de Programación B23
+
+Resuelve los siguientes ejercicios. 
+Todos los ejercicios deberán ir en unnotebook de Pythono en archivosde código fuente .py
+Es importante que en los códigos del ejercicio 4 además de ejecutarse, comentes detalladamente su funcionamiento. 
+1.Escribe un programa en Python que cree una función lambda que sume 15 a cualquier número que se le pase como argumento.
+2.Crea una función lambda que multiplique el argumento de entrada x con el argumento de entrada y. 
+3.Escribe un programa que proporcione una función lambda que divida el valor de entrada x, entre un número aleatorio 
+(puedes usar la función random() o bien la función random.randint(lower,upper).
+4.Indica  lo  que  hacen  los  siguientes  códigos,  especialmente  la  función realizada por el cálculo lambda.
+
+deffunc_compute(n):returnlambdax :x *nresult =func_compute(2)print("Double the number of 15 =",result(15))subject_marks =[('English',88),('Science',90),('Maths',97),('Social sciences',82)]print("Original list of tuples:")print(subject_marks)subject_marks.sort(key =lambdax:x[1])print("\nReult:")print(subject_marks)nums =[1,2,3,4,5,6,7,8,9,10]print("Original list of integers:")print(nums)print("\numbers from the said list:")even_nums =list(filter(lambdax:x%2==0,nums))print(even_nums)print("\numbers from the said list:")odd_nums =list(filter(lambdax:x%2!=0,nums))print(odd_nums)
+Ejercicio de Laboratorio 2. Paradigmas de Programación B23nums =[1,2,3,4,5,6,7,8,9,10]print("Original list of integers:")print(nums)print("\n nmber of the said list:")square_nums =list(map(lambdax:x **2,nums))print(square_nums)print("\n every number of the said list:")cube_nums =list(map(lambdax:x **3,nums))print(cube_nums)
