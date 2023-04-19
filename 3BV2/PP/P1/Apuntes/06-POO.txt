@@ -1,0 +1,19 @@
+Programacion orientada a objetos
+
+- Software reutilizable
+- Abstraer el mundo real -> cosas u objetos
+    cosas -> tiene atributos y comportamientos(acciones)
+
+
+A la representacion de una entidad con atributos y acciones la denominamos clase
+la cual es un tipo de dato compuesto
+
+- a las intancias particulares o casos de cada clase las llamaremos objetos
+
+- a las acciones  las denominaremos metodos
+
+Propiedades:
+- encapsulamiento
+- herencia
+- polimorfismo
+- abstraccion
