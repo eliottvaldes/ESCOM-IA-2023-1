@@ -1,0 +1,24 @@
+PROGRAMACION LÓGICA
+
+Método empleado por científicos computacionales para pretender datar a las computadoras de la capacidad de razonamiento
+ * dado que permite representar el conocimiento
+
+- EL razonamiento está basado en clausulas
+- parte de la lógica de primer orden
+
+
+PROgramming in LOGic
+- lenguaje básico de la programacion lógica
+- busca facilitar la comprobación de teoremas
+
+Lógica de primer orden
+- Enunciados declarativos que describen hechos y reglas positivas
+- Relaciones entre elementos de un universo
+- Relaciones dependientes de otras (reglas)
+
+
+
+Ejemplos:
+1 - toda madre ama a sus hijos
+2 - julia es madre y Luis es hijo de julia
+
