@@ -1,0 +1,23 @@
+Codigo para hacer corrimiento a la derecha de un arreglo de elementos
+Tomando en cuenta que:
+
+
+D[D(2), D(1), D(0)] -> [ECD, Q(2), Q(1)]
+Q[Q(2), Q(1), Q(0)] 
+
+
+-- Version1:
+D(I) <= Q(I+1)
+
+-- Version2:
+D(I-1) <= Q(I)
+
+-- Version3 (usando For loop y la version1):
+FOR I IN (1 down to 0) LOOP
+    D(I) <= Q(I+1)
+END LOOP;
+
+-- version4 (usando For loop y la version2):
+FOR I IN (2 downto 0) LOOP
+    D(I-1) <= Q(I)
+END LOOP;

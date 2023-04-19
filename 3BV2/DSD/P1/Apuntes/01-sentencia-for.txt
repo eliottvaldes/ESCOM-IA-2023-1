@@ -1,0 +1,15 @@
+Intruccion FOR
+
+Usando un generate:
+es concurrente ->
+    with select
+    when else
+
+Usando Secuenciales
+    IF
+    Case
+
+Sintaxis de la sentencia For:
+Etiqueta (opcional): For i in (range) loop
+    instrucciones
+End loop;
