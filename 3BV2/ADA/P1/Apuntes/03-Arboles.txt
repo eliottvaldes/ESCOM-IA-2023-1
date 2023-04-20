@@ -1,0 +1,151 @@
+Construcción del árbol de llamadas a partir de un código recursivo.
+
+Primero describiremos el procedimiento de construcción del árbol
+para un programa muy simple, esto es, un programa con sólo dos
+funciones: una función main que llama a una sola funcion recursiva.
+
+Primera etapa: Construir la estructura del árbol.
+
+Paso 01.
+Dibuja la raíz del árbol, un circulito, y escribe dentro del nodo
+el nombre de la función recursiva.
+
+Paso 02.
+Agrega a la raíz una rama descendente y el nodo respectivo, dentro
+del nodo escribe nuevamente el nombre de la función recursiva.
+Repite el proceso de modo que el árbol (un chorizo vertical) tenga
+tres ramas y cuatro nodos, cada nodo con la etiqueta del nombre de
+la función recursiva.
+
+Paso 03.
+Al final del último nodo (el más inferior) agrega una rama más y
+puntos suspensivos. Abajo de los puntos suspensivos agrega un nodo
+con el nombre de la función recursiva.
+
+Segunda etapa: Etiquetar las funciones con sus parámetros.
+
+Paso 04.
+En el último nodo agregado (el más inferior) acompaña al nombre
+de la función con un paréntesis, y dentro paréntesis escribe el
+nombre de la variable que se encuentra dentro del If en el código
+de la función recursiva y el valor que debe alcanzar para poder
+detener la recursión.
+Primer ejemplo: (n = 0)
+Segundo ejemplo: (n = 1)
+
+Paso 05.
+En el nodo raíz agrega al nombre de la función un paréntesis y
+dentro del paréntesis la variable que representa el valor inicial
+del parámetro de la función.
+Primer ejemplo: (n)
+Segundo ejemplo: (n)
+
+Paso 06.
+En el segundo nodo, el primer hijo de la raíz agrega al nombre
+de la función un paréntesis y dentro del paréntesis el valor del
+parámetro después de la primera llamada recursiva, en función de
+la variable agregada en el paso previo.
+Primer ejemplo: (n - 1).
+Segundo ejemplo: (n/2)
+El valor del parámetro corresponde al argumento modificado que
+aparece dentro de los paréntesis de la llamada recursiva.
+
+Paso 07.
+En el siguiente nodo, el hijo del primer hijo de la raíz agrega
+al nombre de la función un paréntesis y dentro del paréntesis el
+valor del parámetro después de la segunda llamada recursiva, en
+función, otra vez, de la variable agregada en el paso previo.
+Primer ejemplo: ((n - 1) - 1), o sea (n - 2)
+Segundo ejemplo: ((n/2) /2), o sea (n/4)
+El valor del parámetro corresponde a la modificación del argumento
+de la llamada recursiva aplicado dos veces; debe ser dos veces ya
+que estamos en la segunda llamada recursiva.
+
+Paso 08.
+En el penúltimo nodo (uno antes del más inferior) agrega al nombre
+de la función un paréntesis y dentro del paréntesis el valor del
+parámetro después de la tercera llamada recursiva.
+Primer ejemplo: (((n - 1) - 1) - 1), o sea (n - 3)
+Segundo ejemplo: (((n/2) /2) /2), o sea (n/8)
+
+Paso 09.
+Calcula el tamaño de la serie. Escribe una secuencia de términos
+que represente los valores que se asignaron como parámetros a
+cada llamada recursiva del árbol, desde la raíz hasta la hoja, e
+infiere el tamaño de la serie en función de los valores por los
+que atraviesa la variable que prueba el operador If dentro de la
+función recursiva, es decir, infiere el número de veces que debe
+llamarse a la función recursiva.
+Primer ejemplo:
+   n, n - 1, n - 2, n - 3, ... 0    el tamaño de la serie es: n  
+Segundo ejemplo:
+   n, n/2, n/4, n/8, ... 1     el tamaño de la serie es: log(n)
+
+Fin del procedimiento simple. Practícalo con otros programas
+simples.
+
+-------------------------------------------------------------
+A continuación, generalizaremos el procedimiento previo para
+programas más complejos, varias funciones con varias llamadas
+recursivas.
+-------------------------------------------------------------
+
+Primera etapa: Construir la estructura del árbol.
+
+Nota:
+Una función libre de recursión (y de ciclos) tiene un costo
+constante:
+   T(n) = theta(c)
+sin importar la extensión de la función.
+* theta se refiere a la letra griega, como una O con un travesaño
+
+Paso 01.
+De las funciones llamadas desde main encuentra la primera función
+que contenga una definición recursiva. Le pondremos el alias de
+alfa. Coloca en la raíz del árbol el nombre de la función alfa.
+Si la función main tiene más de una llamada a funciones recursivas,
+(llamémosles alfa, beta, gamma, delta, etc.) en este caso coloca
+la función main como raíz y desprende de la raíz una hoja por cada
+llamada a función recursiva, esto es, cada función en una rama
+diferente saliendo todas desde main.
+
+Paso 02.
+La función encontrada, alfa, puede tener una o más llamadas
+recursivas. Por cada llamada recursiva dentro de alfa, extiende
+una rama saliendo del nodo alfa y las nuevas hojas se
+etiquetan con el nombre de la función alfa. Si dentro de la
+función alfa hay otras funciones recursivas que sean invocadas,
+llamémosles kappa, lambda, etc., desde la misma función alfa
+agrega otra rama y en la hoja escribe el nombre de la función
+llamada.
+
+Paso 03.
+Extiende el árbol de modo que cada función recursiva aparezca
+al menos en tres o cuatro diferentes niveles del árbol. En
+diferentes niveles significan que el árbol debe extenderse hacia
+abajo.
+
+Segunda etapa: Etiquetar las funciones con sus parámetros.
+
+Paso 04.
+Para cada función recursiva identifica los parámetros usados
+como centinelas en la función If que regula el tráfico de las
+llamadas recursivas, es decir, identifica las variables del If
+previo a cada llamada recursiva.
+
+Paso 05.
+Agrega en cada nodo del árbol el número de llamadas restantes
+en función de la modificación del parámetro/argumento dentro de
+la llamada recursiva.
+
+Paso 06.
+Infiere el total de llamadas para cada hoja y nodo interno del
+árbol en un recorrido bottom-up, es decir de abajo hacia arriba,
+empezando por las hojas y subiendo a la raíz.
+
+Paso 07.
+Para cada nodo del que derive más de una rama, suma el peso
+de cada subárbol (de cada rama) para obtener el peso (número de
+llamadas) del nodo analizado.
+
+Fin.
