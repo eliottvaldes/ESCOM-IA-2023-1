@@ -16,7 +16,7 @@ void countIncidences(char userString[], int incidences[], int i);
 void printIncidences(int incidences[], int i);
 
 // definimos la funcion principal
-void main()
+int main()
 {
     // declaramos la cedena de caracteres con tamaño definido
     char userString[100];
@@ -34,9 +34,10 @@ void main()
     countIncidences(userString, incidences, aux);
 
     // mostramos las incidencias de cada caracter de la cadena usando la funcion recursiva printIncidences
-    puts("\n\nLas incidencias de cada caracter son: ");
-    puts("\nCaracter\tIncidencia");
+    puts("\n\nLa incidencia de cada caracter es: ");
     printIncidences(incidences, aux);
+
+    return 0;
 }
 
 /**
@@ -78,7 +79,7 @@ void printIncidences(int incidences[], int i)
     {
         // mostramos el caracter y su incidencia
         // usamos %c para mostrar el caracter de la tabla ASCII y %d para mostrar el contador entero de la incidencia en ese indice
-        printf("\nEl caracter: '%c'\taparece: %d veces", i, incidences[i]);
+        printf("\n'%c' aparece: %d veces", i, incidences[i]);
     }
     // llamamos a la funcion recursivamente
     printIncidences(incidences, i + 1);
