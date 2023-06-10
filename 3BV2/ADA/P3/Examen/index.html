@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Diagonales en Tablero de Ajedrez</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+    <main class="container mx-2 my-5">
+
+        <div class="alert alert-primary" role="alert">
+          <h4 class="alert-heading">Primera parte - Examen ADA: Problema de  las 8 reinas</h4>
+          <p>Ingresa la coordenada del punto del tablero para ver las diagonales</p>
+        </div>
+
+        <hr>
+
+        <div class="row">
+
+            <div class="row mb-5" id="data-inputs">
+
+                <div class="col-4">
+                    <div class="mb-3">
+                        <label for="" class="form-label">Fila: </label>
+                        <input type="number" class="form-control" name="fila" id="fila" aria-describedby="emailHelpId"
+                            placeholder="1" min="1" max="8" required>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="mb-3">
+                        <label for="" class="form-label">Columna: </label>
+                        <input type="number" class="form-control" name="columna" id="columna"
+                            aria-describedby="emailHelpId" placeholder="1" min="1" max="8" required>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="button" class="btn btn-outline-primary btn-block" onclick="calcular()">Calcular
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="row mb-2" id="results"></div>
+
+            <div class="row justify-content-center align-items-center text-center" id="board"></div>
+
+        </div>
+
+
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+
+    <script>
+        const calcular = () => {
+            // get value from inputs
+            let fila = document.getElementById('fila').value;
+            let columna = document.getElementById('columna').value;
+
+            // validate inputs
+            if (fila == '' || columna == '') {
+                alert('Ingresa los valores');
+                return;
+            }
+
+
+            // parsea los valores a enteros
+            fila = parseInt(fila);
+            columna = parseInt(columna);
+
+            // validate inputs
+            if (fila < 1 || fila > 8 || columna < 1 || columna > 8) {
+                alert('Ingresa valores entre 1 y 8');
+                return;
+            }
+
+
+            // calculate diagonals
+            let diagonalesDerechas = obtenerDiagonalesDerechas(columna, fila);
+            let diagonalesIzquierdas = obtenerDiagonalesIzquierdas(columna, fila);
+
+            // show diagonals
+
+            let results = document.getElementById('results');
+            results.innerHTML = `
+                    <div class="col-12">
+                        <div class="alert alert-success" role="alert">
+                            <h4 class="alert-heading">Diagonales</h4>
+                            <p>Diagonales Derechas: ${diagonalesDerechas}</p>
+                            <p>Diagonales Izquierdas: ${diagonalesIzquierdas}</p>
+                        </div>
+                    </div>
+                    `;
+
+            // show board
+            // call the function to create the board
+            let board = document.getElementById('board');
+            board.innerHTML = createBoard(fila, columna);
+        }
+
+        const obtenerDiagonalesDerechas = (columna, fila) => {
+            return (columna + fila - 1)
+        }
+
+
+        const obtenerDiagonalesIzquierdas = (columna, fila) => {
+            return (fila < columna) ? (fila - columna + 8) : (columna - fila + 8)
+        }
+
+        // funcion para crear la matriz de 8x8 donde se coloquen las diagolanes encontradas a partir del punto dado (columna, fila)
+        const createMatrix = (columna, fila) => {
+            var matrix = [];
+
+            // Crear matriz vacía de 8x8
+            for (var i = 0; i < 8; i++) {
+                matrix[i] = [];
+                for (var j = 0; j < 8; j++) {
+                    matrix[i][j] = 0;
+                }
+            }
+
+            // Colocar diagonales izquierdas
+            var x = columna;
+            var y = fila;
+            while (x >= 0 && y >= 0) {
+                matrix[y][x] = "X";
+                x--;
+                y--;
+            }
+
+            x = columna + 1;
+            y = fila + 1;
+            while (x < 8 && y < 8) {
+                matrix[y][x] = "X";
+                x++;
+                y++;
+            }
+
+            // Colocar diagonales derechas
+            x = columna;
+            y = fila;
+            while (x >= 0 && y < 8) {
+                matrix[y][x] = "X";
+                x--;
+                y++;
+            }
+
+            x = columna + 1;
+            y = fila - 1;
+            while (x < 8 && y >= 0) {
+                matrix[y][x] = "X";
+                x++;
+                y--;
+            }
+
+            // Colocar punto
+            matrix[fila][columna] = "P";
+
+            return matrix;
+        }
+
+
+
+        // funcion para pintar la matriz en el html
+        const pintarMatriz = (matriz) => {
+            let html = '';
+            for (let i = 0; i < matriz.length; i++) {
+                html += '<div class="col-12">';
+                for (let j = 0; j < matriz[i].length; j++) {
+                    html += `<span class="badge rounded-pill bg-${matriz[i][j] == 'X' ?  'danger' : (matriz[i][j] == 'P') ? 'warning' : 'success'}">${matriz[i][j]}</span>`;
+                }
+                html += '</div>';
+            }
+            return html;
+        }
+
+
+        const createBoard = (fila, columna) => {
+            let html = '';
+            let matrix = createMatrix(columna - 1, fila - 1);
+            html += pintarMatriz(matrix);
+            return html;
+        }
+
+    </script>
+
+
+</body>
+
+</html>
