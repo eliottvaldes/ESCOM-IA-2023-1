@@ -14,38 +14,42 @@
 </head>
 
 <body>
+    <style>
+        body{
+            background-color: #f5f5f5;
+        }
+    </style>
     <header>
         <!-- place navbar here -->
     </header>
-    <main class="container mx-2 my-5">
+    <main class="container-fluid my-3">
 
         <div class="alert alert-primary" role="alert">
           <h4 class="alert-heading">Primera parte - Examen ADA: Problema de  las 8 reinas</h4>
           <p>Ingresa la coordenada del punto del tablero para ver las diagonales</p>
+          
         </div>
-
-        <hr>
 
         <div class="row">
 
-            <div class="row mb-5" id="data-inputs">
+            <div class="row justify-content-around mb-5" id="data-inputs">
 
                 <div class="col-4">
                     <div class="mb-3">
                         <label for="" class="form-label">Fila: </label>
                         <input type="number" class="form-control" name="fila" id="fila" aria-describedby="emailHelpId"
-                            placeholder="1" min="1" max="8" required>
+                            placeholder="1" min="1" max="8" value="1" required>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="mb-3">
                         <label for="" class="form-label">Columna: </label>
                         <input type="number" class="form-control" name="columna" id="columna"
-                            aria-describedby="emailHelpId" placeholder="1" min="1" max="8" required>
+                            aria-describedby="emailHelpId" placeholder="1" min="1" max="8" value="1" required>
                     </div>
                 </div>
                 <div class="col-12">
-                    <button type="button" class="btn btn-outline-primary btn-block" onclick="calcular()">Calcular
+                    <button type="button" class="btn btn-outline-primary btn-block float-end" onclick="calcular()">Calcular
                     </button>
                 </div>
 
