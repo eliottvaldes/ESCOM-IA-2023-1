@@ -1,0 +1,76 @@
+*******************************************************
+CATALOGOS DE DATOS
+*******************************************************
+////// INICIAN CATALOGOS DE IMPORTANCIA PRIMORDIAL //////
+1 - cat_delegacion
+    * delegacion (PK)
+    * descripcion (PK)
+
+////// INICIAN CATALOGOS DE DATOS DEL DATASET DE INCIDENTES_VIALES //////
+2 - cat_tipo_incidente_c4
+    * tipo_incidente_c4 (PK)
+    * descripcion (PK)
+
+3 - cat_tipo_entrada
+    * tipo_entrada (PK)
+    * descripcion (PK)
+
+4 - cat_clas_con_f_alarma
+    * clas_con_f_alarma (PK)
+    * descripcion (PK)
+
+5 -cat_codigo_cierre
+    * codigo_cierre (PK)
+    * descripcion (PK)
+
+////// INICIAN CATALOGOS DE DATOS DEL INEGI //////
+6 - cat_sexo:
+    * H -> hombre
+    * M -> mujer
+
+7 - cat_rango_edad:    
+    * 15-19
+    * 20-24
+    * 25-29
+    * 30-34
+    * 35-39
+    * 40-44
+    * 45-49
+    * 50-54
+    * 55-59
+    * 60-64
+    * 65-69
+    * 70-74
+    * 75-79
+    * 80-84
+    * 85-100
+
+
+*******************************************************
+TABLAS DE DATOS
+*******************************************************
+
+////// INICIAN TABLAS DE DATOS DEL DATASET DE INCIDENTES_VIALES //////
+8 - incidente
+    * folio (PK)
+    * delegacion_inicio (FK)
+    * delegacion_cierre (FK)
+    * incidente_c4 (FK)
+    * tipo_entrada (FK)
+    * clas_con_f_alarma (FK)
+    * codigo_cierre (FK)
+    * fecha_creacion
+    * hora_creacion
+    * fecha_cierre
+    * hora_cierre
+    * latitud
+    * longitud
+    * geopoint
+
+
+////// INICIAN TABLAS DE DATOS DEL INEGI //////
+9 - delegacion_habitantes:
+    * clave_delegacion (PK)(FK) -> clave de la delegación
+    * sexo (FK) -> sexo
+    * rango_edad (FK) -> rango de edad
+    * poblacion_por_vivienda -> cantidad de personas
