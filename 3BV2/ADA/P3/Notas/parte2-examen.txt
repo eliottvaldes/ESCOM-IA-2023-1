@@ -1,0 +1,38 @@
+Recursos disponibles
+vector de renglones
+vector de columnas
+vector solucion
+vector diagonal izquierda
+vector diagonal derecha
+
+FUNCIONES PARA DIAGONALES: 
+obtenerDiagonalesIZquierdas(return col+8-renglon)
+obtenerDiagonalesDerechas(col+renglon-1)
+
+FUNCIONES PARA LOGICA
+main
+colocaPrimera - coloca la primera reina en cualquier parte del tablero
+coloca7Reinas - funcion para colocar las 7 reinas restantes dentro del tablero tomando en cuenta los reursos disponibles
+casos:
+- que una reina llegue a la 8ta columna
+- que una reina no encuentre recursos disponibles
+- que una reina encuentre recursos disponibles
+- que la 8ta reina ya encontro recursos disponibles (asumimos que las reinas anteriores ya estan colocadas correctamente)
+- que la 2da  reina no encuentre recursos disponibles (asumimos que hay backtracking anidado llamando desde la 8ta columna)
+
+
+acciones para los casos de la funcinon coloca7Reinas:
+- liberar recursos 
+- apartar Recursos
+- consultar recursos
+- buscar recursos
+- llamar reina siguiente
+- llamar a la reina anterior
+- imprimir
+
+
+
+
+COLOCAR casos
+COLOCAR acciones
+DISEÑAR PSEUDOCODIGO
