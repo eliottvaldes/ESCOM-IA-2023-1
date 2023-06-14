@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS `proyecto`;
+
 CREATE DATABASE IF NOT EXISTS `proyecto`;
 USE `proyecto`;
 
@@ -181,14 +183,25 @@ INSERT INTO `cat_sexo` (`id_sexo`, `sexo`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `t_delegacion_edad`
+-- Estructura de tabla para la tabla `t_delegacion_ocupantes_por_vivienda`
 --
 
-CREATE TABLE `t_delegacion_edad` (
+CREATE TABLE `t_delegacion_ocupantes_por_vivienda` (
+  `id_delegacion` int(11) NOT NULL,
+  `ocupantes` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `t_delegacion_poblacion`
+--
+
+CREATE TABLE `t_delegacion_poblacion` (
   `id_delegacion` int(11) NOT NULL,
   `id_sexo` int(11) NOT NULL,
   `id_rango_edad` int(11) NOT NULL,
-  `habitantes_por_vivienda` double NOT NULL
+  `poblacion` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -261,12 +274,18 @@ ALTER TABLE `cat_sexo`
   ADD PRIMARY KEY (`id_sexo`);
 
 --
--- Indices de la tabla `t_delegacion_edad`
+-- Indices de la tabla `t_delegacion_ocupantes_por_vivienda`
 --
-ALTER TABLE `t_delegacion_edad`
-  ADD PRIMARY KEY (`id_delegacion`),
-  ADD KEY `fk_sexo_idx` (`id_sexo`),
-  ADD KEY `fk_rango_edad_idx` (`id_rango_edad`);
+ALTER TABLE `t_delegacion_ocupantes_por_vivienda`
+  ADD PRIMARY KEY (`id_delegacion`);
+
+--
+-- Indices de la tabla `t_delegacion_poblacion`
+--
+ALTER TABLE `t_delegacion_poblacion`
+  ADD PRIMARY KEY (`id_delegacion`,`id_sexo`,`id_rango_edad`),
+  ADD KEY `id_sexo` (`id_sexo`),
+  ADD KEY `id_rango_edad` (`id_rango_edad`);
 
 --
 -- Indices de la tabla `t_incidente`
@@ -285,23 +304,18 @@ ALTER TABLE `t_incidente`
 --
 
 --
--- Filtros para la tabla `t_delegacion_edad`
+-- Filtros para la tabla `t_delegacion_ocupantes_por_vivienda`
 --
-ALTER TABLE `t_delegacion_edad`
-  ADD CONSTRAINT `fk_delegacion` FOREIGN KEY (`id_delegacion`) REFERENCES `cat_delegacion` (`id_delegacion`),
-  ADD CONSTRAINT `fk_rango_edad` FOREIGN KEY (`id_rango_edad`) REFERENCES `cat_rango_edad` (`id_rango_edad`),
-  ADD CONSTRAINT `fk_sexo` FOREIGN KEY (`id_sexo`) REFERENCES `cat_sexo` (`id_sexo`);
+ALTER TABLE `t_delegacion_ocupantes_por_vivienda`
+  ADD CONSTRAINT `t_delegacion_ocupantes_por_vivienda_ibfk_1` FOREIGN KEY (`id_delegacion`) REFERENCES `cat_delegacion` (`id_delegacion`);
 
 --
--- Filtros para la tabla `t_incidente`
+-- Filtros para la tabla `t_delegacion_poblacion`
 --
-ALTER TABLE `t_incidente`
-  ADD CONSTRAINT `fk_clasificacion` FOREIGN KEY (`id_clasificacion`) REFERENCES `cat_clas_con_f_alarma` (`id_clasificacion`),
-  ADD CONSTRAINT `fk_codigo_cierre` FOREIGN KEY (`id_codigo_cierre`) REFERENCES `cat_incidente_codigo_cierre` (`id_codigo_cierre`),
-  ADD CONSTRAINT `fk_delegacion_cierre` FOREIGN KEY (`id_delegacion_cierre`) REFERENCES `cat_delegacion` (`id_delegacion`),
-  ADD CONSTRAINT `fk_delegacion_inicio` FOREIGN KEY (`id_delegacion_inicio`) REFERENCES `cat_delegacion` (`id_delegacion`),
-  ADD CONSTRAINT `fk_incidente_c4` FOREIGN KEY (`id_incidente_c4`) REFERENCES `cat_incidente_tipo_c4` (`id_tipo_incidente_c4`),
-  ADD CONSTRAINT `fk_tipo_entrada` FOREIGN KEY (`id_tipo_entrada`) REFERENCES `cat_incidente_tipo_entrada` (`id_tipo_entrada`);
+ALTER TABLE `t_delegacion_poblacion`
+  ADD CONSTRAINT `t_delegacion_poblacion_ibfk_1` FOREIGN KEY (`id_delegacion`) REFERENCES `cat_delegacion` (`id_delegacion`),
+  ADD CONSTRAINT `t_delegacion_poblacion_ibfk_2` FOREIGN KEY (`id_sexo`) REFERENCES `cat_sexo` (`id_sexo`),
+  ADD CONSTRAINT `t_delegacion_poblacion_ibfk_3` FOREIGN KEY (`id_rango_edad`) REFERENCES `cat_rango_edad` (`id_rango_edad`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
