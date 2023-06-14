@@ -1,0 +1,57 @@
+Usando NodeJS, lee un archivo CSV llamado './initialFiles/dataset_incidentes_viales.csv'.
+Usando la informacion dentro del archivo crea otros archivos csv con la informacion agrupada según sea el caso.
+Los archivos creados son para importarlos a una base de datos MySQL.
+
+OBSERVACIONES:
+el archivo './initialFiles/dataset_incidentes_viales.csv' tien las siguientes columnas:
+- "folio"
+- "fecha_creacion"
+- "hora_creacion"
+- "dia_semana"
+- "codigo_cierre"
+- "fecha_cierre"
+- "año_cierre"
+- "mes_cierre"
+- "hora_cierre"
+- "delegacion_inicio"
+- "incidente_c4"
+- "latitud"
+- "longitud"
+- "clas_con_f_alarma"
+- "tipo_entrada"
+- "delegacion_cierre"
+- "geopoint"
+- "mes"
+
+OBJETIVOS:
+- crea los siguientes archivos csv unicamente con la infomracion indicada:
+
+Archivo: "./cleanFiles/cat_delegacion.csv"
+Observaciones: Debe contener exclusivamente valores únicos de la columna "delegacion_inicio" del archivo "dataset_incidentes_viales.csv"
+Columnas:
+    * id_delegacion (PK)
+    * delegacion     
+
+Archivo: "./cleanFiles/cat_clas_con_f_alarma.csv"
+Observaciones: Debe contener exclusivamente valores únicos de la columna "clas_con_f_alarma" del archivo "dataset_incidentes_viales.csv"
+Columnas:
+    * id_clasificacion (PK)    
+    * clasificacion
+
+Archivo: "./cleanFiles/cat_tipo_incidente_c4.csv"
+Observaciones: Debe contener exclusivamente valores únicos de la columna "incidente_c4" del archivo "dataset_incidentes_viales.csv"
+Columnas:
+    * id_tipo_incidente_c4 (PK)
+    * tipo_incidente
+
+Archivo: "./cleanFiles/cat_tipo_entrada.csv"
+Observaciones: Debe contener exclusivamente valores únicos de la columna "tipo_entrada" del archivo "dataset_incidentes_viales.csv"
+Columnas:
+    * id_tipo_entrada (PK)
+    * tipo_entrada
+
+Archivo: "./cleanFiles/cat_incidente_codigo_cierre.csv"
+Observaciones: Debe contener exclusivamente valores únicos de la columna "codigo_cierre" del archivo "dataset_incidentes_viales.csv"
+    * id_codigo_cierre (PK)
+    * codigo_cierre
+    * descripcion - NULL
