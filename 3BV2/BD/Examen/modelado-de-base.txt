@@ -3,32 +3,38 @@ CATALOGOS DE DATOS
 *******************************************************
 ////// INICIAN CATALOGOS DE IMPORTANCIA PRIMORDIAL //////
 1 - cat_delegacion
-    * delegacion (PK)
-    * descripcion (PK)
+    * id_delegacion (PK)
+    * delegacion     
 
 ////// INICIAN CATALOGOS DE DATOS DEL DATASET DE INCIDENTES_VIALES //////
 2 - cat_tipo_incidente_c4
-    * tipo_incidente_c4 (PK)
-    * descripcion (PK)
+    * id_tipo_incidente_c4 (PK)
+    * tipo_incidente_c4 
+    * descripcion
 
 3 - cat_tipo_entrada
-    * tipo_entrada (PK)
-    * descripcion (PK)
+    * id_tipo_entrada (PK)
+    * tipo_entrada 
+    * descripcion
 
 4 - cat_clas_con_f_alarma
-    * clas_con_f_alarma (PK)
-    * descripcion (PK)
+    * id_clas_con_f_alarma (PK)
+    * clas_con_f_alarma 
+    * descripcion 
 
 5 -cat_codigo_cierre
-    * codigo_cierre (PK)
-    * descripcion (PK)
+    * id_codigo_cierre (PK)
+    * codigo_cierre
+    * descripcion
 
 ////// INICIAN CATALOGOS DE DATOS DEL INEGI //////
 6 - cat_sexo:
+    * id_sexo (PK)
     * H -> hombre
     * M -> mujer
 
 7 - cat_rango_edad:    
+    *id_rango_edad
     * 15-19
     * 20-24
     * 25-29
@@ -69,8 +75,16 @@ TABLAS DE DATOS
 
 
 ////// INICIAN TABLAS DE DATOS DEL INEGI //////
-9 - delegacion_habitantes:
-    * clave_delegacion (PK)(FK) -> clave de la delegación
-    * sexo (FK) -> sexo
-    * rango_edad (FK) -> rango de edad
-    * poblacion_por_vivienda -> cantidad de personas
+9 - delegacion_poblacion:
+    * id_delegacion (PK)(FK) -> clave de la delegación
+    * id_sexo (FK) -> sexo
+    * id_rango_edad (FK) -> rango de edad
+    * poblacion -> cantidad de personas
+
+10 - delegacion_ocupantes_por_vivienda
+    * id_delegacion (PK)(FK) -> id de la delegación    
+    * ocupantes -> cantidad de personas vivienda
+
+10 - delegacion_ocupantes_por_cuarto
+    * id_delegacion (PK)(FK) -> id de la delegación    
+    * ocupantes -> cantidad de personas por cuarto
