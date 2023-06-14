@@ -1,6 +1,5 @@
 Usando NodeJS, lee un archivo CSV llamado './initialFiles/dataset_incidentes_viales.csv'.
-Usando la informacion dentro del archivo crea otros archivos csv con la informacion agrupada según sea el caso.
-Los archivos creados son para importarlos a una base de datos MySQL.
+
 
 OBSERVACIONES:
 el archivo './initialFiles/dataset_incidentes_viales.csv' tien las siguientes columnas:
@@ -55,3 +54,22 @@ Observaciones: Debe contener exclusivamente valores únicos de la columna "codig
     * id_codigo_cierre (PK)
     * codigo_cierre
     * descripcion - NULL
+
+
+Archivo: "./cleanFiles/t_incidentes.csv"
+Observaciones: Debe contener exclusivamente valores únicos y NO NULOS de la columna "folio" del archivo "dataset_incidentes_viales.csv"
+Columnas:
+    * folio (PK)
+    * delegacion_inicio (FK)
+    * delegacion_cierre (FK)
+    * incidente_c4 (FK)
+    * tipo_entrada (FK)
+    * clas_con_f_alarma (FK)
+    * codigo_cierre (FK)
+    * fecha_creacion
+    * hora_creacion
+    * fecha_cierre
+    * hora_cierre
+    * latitud
+    * longitud
+    * geopoint
