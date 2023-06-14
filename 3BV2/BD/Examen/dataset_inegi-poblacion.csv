@@ -1,0 +1,667 @@
+"ENTIDAD","NOM_ENT","MUN","NOM_MUN","LOC","NOM_LOC","P_15A19_F","P_15A19_M","P_20A24_F","P_20A24_M","P_25A29_F","P_25A29_M"
+9,"Ciudad de México",0,"Total de la entidad Ciudad de México",0,"Total de la Entidad",319280,331109,355556,359049,380208,372081
+9,"Ciudad de México",0,"Total de la entidad Ciudad de México",9998,"Localidades de una vivienda",10,21,12,11,12,16
+9,"Ciudad de México",0,"Total de la entidad Ciudad de México",9999,"Localidades de dos viviendas",14,14,12,10,14,11
+9,"Ciudad de México",2,"Azcapotzalco",0,"Total del Municipio",13711,14272,15561,15895,17506,16899
+9,"Ciudad de México",2,"Azcapotzalco",1,"Azcapotzalco",13711,14272,15561,15895,17506,16899
+9,"Ciudad de México",3,"Coyoacán",0,"Total del Municipio",19308,20091,23369,23667,23960,23879
+9,"Ciudad de México",3,"Coyoacán",1,"Coyoacán",19308,20091,23369,23667,23960,23879
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",0,"Total del Municipio",8334,8442,9464,8830,9718,8732
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",1,"Cuajimalpa de Morelos",7085,7108,8082,7472,8392,7410
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",10,"Cruz Blanca",27,28,32,40,45,31
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",20,"San Lorenzo Acopilco",1025,1092,1156,1121,1112,1089
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",50,"La Venta",19,21,25,16,21,25
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",54,"Puerto las Cruces (Monte las Cruces)",54,49,57,47,58,54
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",55,"Teopazulco",2,2,1,5,2,6
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",56,"Valle de las Monjas",1,4,7,8,6,6
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",57,"Prolongación Constitución",8,10,8,7,2,5
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",58,"Paraje Río Borracho",6,2,2,7,3,3
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",59,"El Zarco",1,0,3,2,2,2
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",60,"La Bolsa (El Encinal)","*","*","*","*","*","*"
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",62,"Los Campesinos [Rancho]",2,2,1,1,2,1
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",63,"Santa Rosa",42,47,28,36,30,32
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",64,"Paraje Cerro de los Padres","*","*","*","*","*","*"
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",66,"Santa Laura [Rancho]",1,1,2,2,0,5
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",67,"La Papa [Escuela Niños Héroes]","*","*","*","*","*","*"
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",70,"Punta Galicia",17,27,21,29,25,31
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",71,"Cola de Pato","*","*","*","*","*","*"
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",73,"Los Aguacates",28,30,29,28,13,24
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",74,"Punta Ahuatenco",13,16,5,7,2,7
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",75,"Los Laureles [Rancho]","*","*","*","*","*","*"
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",77,"Coatzehuaya",1,0,2,1,0,0
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",78,"La Loma","*","*","*","*","*","*"
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",79,"Llanito Redondo","*","*","*","*","*","*"
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",9998,"Localidades de una vivienda",0,0,1,0,2,1
+9,"Ciudad de México",4,"Cuajimalpa de Morelos",9999,"Localidades de dos viviendas",2,3,2,1,1,0
+9,"Ciudad de México",5,"Gustavo A. Madero",0,"Total del Municipio",41281,43052,44809,46768,45079,46369
+9,"Ciudad de México",5,"Gustavo A. Madero",1,"Gustavo A. Madero",41281,43052,44809,46768,45079,46369
+9,"Ciudad de México",6,"Iztacalco",0,"Total del Municipio",13495,14264,15293,15348,16154,15573
+9,"Ciudad de México",6,"Iztacalco",1,"Iztacalco",13495,14264,15293,15348,16154,15573
+9,"Ciudad de México",7,"Iztapalapa",0,"Total del Municipio",70085,73108,74912,75828,76092,75498
+9,"Ciudad de México",7,"Iztapalapa",1,"Iztapalapa",70085,73108,74912,75828,76092,75498
+9,"Ciudad de México",8,"La Magdalena Contreras",0,"Total del Municipio",9304,9585,9901,10068,10070,9763
+9,"Ciudad de México",8,"La Magdalena Contreras",1,"La Magdalena Contreras",9261,9537,9847,10012,10011,9714
+9,"Ciudad de México",8,"La Magdalena Contreras",71,"Ejido de San Nicolás Totolapan",0,0,1,1,0,1
+9,"Ciudad de México",8,"La Magdalena Contreras",75,"Segundo Dinamo",1,0,0,1,0,1
+9,"Ciudad de México",8,"La Magdalena Contreras",79,"Las Golondrinas","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",83,"El Gavillero",19,18,16,16,25,19
+9,"Ciudad de México",8,"La Magdalena Contreras",85,"El Ocotal (La Carbonera)",2,0,0,1,0,0
+9,"Ciudad de México",8,"La Magdalena Contreras",88,"Totolapan",15,14,22,24,14,12
+9,"Ciudad de México",8,"La Magdalena Contreras",89,"Sehuaya","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",94,"La Campana [Rancho]","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",96,"La Polea","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",98,"Valle del Tezontle","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",99,"Albergue Alpino Ajusco","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",100,"Los Cedros","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",101,"Ocotenco (La Loma Cazulco)",0,0,0,0,0,0
+9,"Ciudad de México",8,"La Magdalena Contreras",102,"Los Tejocotes","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",104,"Rancho Viejo",2,1,4,1,6,4
+9,"Ciudad de México",8,"La Magdalena Contreras",106,"Prolongación Ermitaño",0,2,2,2,4,3
+9,"Ciudad de México",8,"La Magdalena Contreras",107,"Llanos de Acopilco","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",108,"Rincón Eslava",0,5,4,2,2,1
+9,"Ciudad de México",8,"La Magdalena Contreras",109,"La Cañada [Parque]","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",111,"Rancho Chichicaspa",2,1,0,2,0,2
+9,"Ciudad de México",8,"La Magdalena Contreras",112,"Paraje Chichicaspa",2,7,4,5,6,5
+9,"Ciudad de México",8,"La Magdalena Contreras",113,"Meyuca","*","*","*","*","*","*"
+9,"Ciudad de México",8,"La Magdalena Contreras",9998,"Localidades de una vivienda",0,0,1,1,1,0
+9,"Ciudad de México",8,"La Magdalena Contreras",9999,"Localidades de dos viviendas",0,0,0,0,1,1
+9,"Ciudad de México",9,"Milpa Alta",0,"Total del Municipio",6468,6977,6643,6748,6646,6303
+9,"Ciudad de México",9,"Milpa Alta",1,"Villa Milpa Alta",679,789,773,757,755,708
+9,"Ciudad de México",9,"Milpa Alta",11,"San Antonio Tecómitl",1152,1242,1170,1250,1274,1111
+9,"Ciudad de México",9,"Milpa Alta",15,"San Bartolomé Xicomulco",206,232,199,198,184,180
+9,"Ciudad de México",9,"Milpa Alta",17,"San Francisco Tecoxpa",603,629,627,693,577,568
+9,"Ciudad de México",9,"Milpa Alta",24,"San Pablo Oztotepec",799,807,752,763,789,724
+9,"Ciudad de México",9,"Milpa Alta",29,"San Pedro Atocpan",367,422,400,380,408,427
+9,"Ciudad de México",9,"Milpa Alta",33,"San Salvador Cuauhtenco",759,781,810,794,761,744
+9,"Ciudad de México",9,"Milpa Alta",36,"Santa Ana Tlacotenco",494,496,505,473,481,487
+9,"Ciudad de México",9,"Milpa Alta",37,"Cruztitla",50,59,49,51,49,49
+9,"Ciudad de México",9,"Milpa Alta",45,"Los Pinos (Totulan)",2,3,2,1,1,4
+9,"Ciudad de México",9,"Milpa Alta",46,"Xoctonco",22,22,18,22,14,17
+9,"Ciudad de México",9,"Milpa Alta",50,"Cozcatlán",0,0,2,0,3,0
+9,"Ciudad de México",9,"Milpa Alta",52,"La Herradura (Séptima Curva)",5,6,4,7,4,2
+9,"Ciudad de México",9,"Milpa Alta",54,"Zangahco",1,10,1,4,3,1
+9,"Ciudad de México",9,"Milpa Alta",56,"Hueycotzingo",7,5,6,6,5,6
+9,"Ciudad de México",9,"Milpa Alta",66,"Cuauhtec (El Mirador Santa Ana Tlacotenco)",1,0,1,0,0,0
+9,"Ciudad de México",9,"Milpa Alta",67,"La Mora",9,8,6,7,13,12
+9,"Ciudad de México",9,"Milpa Alta",68,"Metenco",19,28,19,19,18,18
+9,"Ciudad de México",9,"Milpa Alta",72,"Tamasquititla",1,1,0,0,1,2
+9,"Ciudad de México",9,"Milpa Alta",74,"San Agustín Xolco",2,2,3,3,1,2
+9,"Ciudad de México",9,"Milpa Alta",77,"San Marcos (Tezocotitla)",7,9,11,11,10,6
+9,"Ciudad de México",9,"Milpa Alta",81,"Cuyucalco",7,8,4,6,6,4
+9,"Ciudad de México",9,"Milpa Alta",82,"Iztahuaca",4,3,5,4,2,2
+9,"Ciudad de México",9,"Milpa Alta",83,"Tzotzomaco",2,2,1,0,1,1
+9,"Ciudad de México",9,"Milpa Alta",84,"Tlatepexco",5,7,8,7,10,6
+9,"Ciudad de México",9,"Milpa Alta",88,"San Paocotitla",11,10,12,12,8,6
+9,"Ciudad de México",9,"Milpa Alta",90,"Tlacopac",2,9,3,2,5,6
+9,"Ciudad de México",9,"Milpa Alta",92,"Tecolotzitzatzian (Tiapa)",0,0,0,1,1,2
+9,"Ciudad de México",9,"Milpa Alta",95,"Tepetlapa",13,11,10,15,6,9
+9,"Ciudad de México",9,"Milpa Alta",96,"Tequianquiztunco",0,0,0,1,2,1
+9,"Ciudad de México",9,"Milpa Alta",98,"Tetexipezco",0,0,2,1,1,2
+9,"Ciudad de México",9,"Milpa Alta",99,"Tetlicuili (El Encinal)",0,1,0,1,0,1
+9,"Ciudad de México",9,"Milpa Alta",100,"Toltecas Parte Alta (Barrio Tenantitla)","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",101,"Texcalatlautenco",3,2,2,2,2,0
+9,"Ciudad de México",9,"Milpa Alta",103,"Tezompa",13,3,15,11,10,15
+9,"Ciudad de México",9,"Milpa Alta",104,"Teziuhtepec",5,4,5,5,7,8
+9,"Ciudad de México",9,"Milpa Alta",105,"Tetzumpa",1,1,2,1,0,1
+9,"Ciudad de México",9,"Milpa Alta",109,"Tlaxala",1,5,2,3,1,5
+9,"Ciudad de México",9,"Milpa Alta",110,"Ahuapapatlapa","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",112,"Tetepanco",3,14,8,11,10,6
+9,"Ciudad de México",9,"Milpa Alta",113,"Copexalco",2,1,4,1,4,1
+9,"Ciudad de México",9,"Milpa Alta",115,"San José",12,17,10,21,14,11
+9,"Ciudad de México",9,"Milpa Alta",116,"Hueytepetl (Bugambilias)",8,19,11,14,8,9
+9,"Ciudad de México",9,"Milpa Alta",117,"Ocoximalipa",6,6,5,4,11,5
+9,"Ciudad de México",9,"Milpa Alta",120,"Corralixpa",15,20,11,9,12,8
+9,"Ciudad de México",9,"Milpa Alta",124,"El Rancho","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",126,"Coyocalli",0,0,1,3,4,2
+9,"Ciudad de México",9,"Milpa Alta",129,"Tlapalan",1,3,2,0,3,2
+9,"Ciudad de México",9,"Milpa Alta",130,"Retamatitla (Tepehualli)","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",131,"Texalco",8,9,4,9,5,6
+9,"Ciudad de México",9,"Milpa Alta",134,"Queapilco",2,3,3,6,4,4
+9,"Ciudad de México",9,"Milpa Alta",135,"Texococlixpa (Rancho Santa Elena)","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",138,"Barranca Seca (Pozo Ocho)",7,9,13,11,14,11
+9,"Ciudad de México",9,"Milpa Alta",139,"Teatlaco",15,15,9,8,6,9
+9,"Ciudad de México",9,"Milpa Alta",140,"Tlaloxtoc (Ejidos de Tecoxpa)",1,0,0,0,0,2
+9,"Ciudad de México",9,"Milpa Alta",141,"Tezquizco",0,0,0,0,1,1
+9,"Ciudad de México",9,"Milpa Alta",142,"Atuzanco",2,0,1,2,0,0
+9,"Ciudad de México",9,"Milpa Alta",147,"El Potrero",0,1,0,0,1,0
+9,"Ciudad de México",9,"Milpa Alta",151,"Miquixpa",5,0,0,5,3,4
+9,"Ciudad de México",9,"Milpa Alta",152,"San Lorenzo Tlacoyucan",160,174,184,174,196,178
+9,"Ciudad de México",9,"Milpa Alta",154,"Rinconada del Teoca",8,5,7,4,3,5
+9,"Ciudad de México",9,"Milpa Alta",155,"Tepexomulco",5,7,4,8,7,6
+9,"Ciudad de México",9,"Milpa Alta",156,"Temoclaluca",2,3,0,0,2,1
+9,"Ciudad de México",9,"Milpa Alta",158,"Malacaxco",18,15,11,18,14,11
+9,"Ciudad de México",9,"Milpa Alta",159,"Cuatlixco",1,0,2,1,0,0
+9,"Ciudad de México",9,"Milpa Alta",161,"Coametzu",17,21,17,15,13,11
+9,"Ciudad de México",9,"Milpa Alta",163,"Cuauhtunco",10,20,14,14,11,9
+9,"Ciudad de México",9,"Milpa Alta",166,"La Era",0,3,1,0,0,0
+9,"Ciudad de México",9,"Milpa Alta",167,"Tepetenco",14,19,11,11,10,13
+9,"Ciudad de México",9,"Milpa Alta",168,"San Isidro Cuatepec",55,41,48,44,57,46
+9,"Ciudad de México",9,"Milpa Alta",169,"Xaluis",6,10,10,7,12,9
+9,"Ciudad de México",9,"Milpa Alta",171,"Tepetipac",11,18,19,6,21,10
+9,"Ciudad de México",9,"Milpa Alta",172,"Tlatlalahuaya",4,4,2,2,1,1
+9,"Ciudad de México",9,"Milpa Alta",173,"Texunco (Camino Real a Tlaltenami)",1,2,4,3,4,0
+9,"Ciudad de México",9,"Milpa Alta",174,"Mecalco (Camino al Mirador)",10,9,8,9,15,9
+9,"Ciudad de México",9,"Milpa Alta",176,"Zacatonco",17,17,17,26,18,15
+9,"Ciudad de México",9,"Milpa Alta",178,"Xali",2,0,2,4,2,2
+9,"Ciudad de México",9,"Milpa Alta",185,"Zacazontlipac",14,14,23,15,14,15
+9,"Ciudad de México",9,"Milpa Alta",187,"Santa Catarina (Piedra Blanca)",5,12,8,6,6,8
+9,"Ciudad de México",9,"Milpa Alta",188,"Cuauhtetec",10,11,14,20,9,10
+9,"Ciudad de México",9,"Milpa Alta",189,"Huitlalpa",2,5,5,0,0,2
+9,"Ciudad de México",9,"Milpa Alta",191,"Texcolipan",0,1,0,1,3,1
+9,"Ciudad de México",9,"Milpa Alta",192,"Tetzmititla",2,0,3,3,1,1
+9,"Ciudad de México",9,"Milpa Alta",195,"Tlaxiomulco",10,3,5,6,6,6
+9,"Ciudad de México",9,"Milpa Alta",198,"Tecoloxtitla",6,9,3,7,8,6
+9,"Ciudad de México",9,"Milpa Alta",199,"Tapalaco (Amacapultitla)",1,5,5,4,3,3
+9,"Ciudad de México",9,"Milpa Alta",200,"Teacalco",1,1,0,0,2,0
+9,"Ciudad de México",9,"Milpa Alta",202,"Cuauhzontlipan",4,4,6,9,5,4
+9,"Ciudad de México",9,"Milpa Alta",203,"Huepaltepec",5,3,1,3,2,3
+9,"Ciudad de México",9,"Milpa Alta",204,"Mecatlán (Rancho el Refugio)",3,4,3,2,0,1
+9,"Ciudad de México",9,"Milpa Alta",205,"Tecupilco (Kilómetro 17.5)",5,5,3,4,5,3
+9,"Ciudad de México",9,"Milpa Alta",206,"Xaxalpa",6,10,7,8,6,10
+9,"Ciudad de México",9,"Milpa Alta",207,"Xaltepetitla",1,6,3,4,2,2
+9,"Ciudad de México",9,"Milpa Alta",208,"Tetecolok",7,4,7,6,3,3
+9,"Ciudad de México",9,"Milpa Alta",210,"Santa Rosa",9,5,5,7,12,13
+9,"Ciudad de México",9,"Milpa Alta",211,"Olla de Piedra",6,9,7,4,3,2
+9,"Ciudad de México",9,"Milpa Alta",213,"El Zapote (Techultepec)",1,6,0,1,3,2
+9,"Ciudad de México",9,"Milpa Alta",214,"Maxulco (Barrio Cruztitla)",12,11,9,8,11,12
+9,"Ciudad de México",9,"Milpa Alta",215,"Tecoxpa (El Pirul)",0,0,1,0,0,0
+9,"Ciudad de México",9,"Milpa Alta",216,"Santa Martha Cosalan",4,1,3,5,5,5
+9,"Ciudad de México",9,"Milpa Alta",217,"Zacuaztitla",17,23,23,27,17,19
+9,"Ciudad de México",9,"Milpa Alta",218,"Rancho Paraíso Escondido","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",219,"Omaxa",13,6,10,5,6,7
+9,"Ciudad de México",9,"Milpa Alta",222,"Ahuatitla (Ixmatunco)",3,2,3,2,2,4
+9,"Ciudad de México",9,"Milpa Alta",223,"Texacazintla (Xacalixpa)",5,5,4,4,6,4
+9,"Ciudad de México",9,"Milpa Alta",224,"Chichilesca",11,11,6,13,7,5
+9,"Ciudad de México",9,"Milpa Alta",226,"Calle Capulines",0,2,0,0,0,0
+9,"Ciudad de México",9,"Milpa Alta",227,"Temalacatl",2,1,2,2,3,4
+9,"Ciudad de México",9,"Milpa Alta",228,"Temoayan",0,1,2,2,0,3
+9,"Ciudad de México",9,"Milpa Alta",229,"Prolongación Xolotl",0,0,0,0,3,3
+9,"Ciudad de México",9,"Milpa Alta",230,"Anayeli","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",233,"Las Cruces Parte Alta (Tehuepanco)",7,11,4,5,8,6
+9,"Ciudad de México",9,"Milpa Alta",234,"Cuacualipa",0,1,2,5,4,2
+9,"Ciudad de México",9,"Milpa Alta",235,"Tehuistitla",2,3,4,0,4,4
+9,"Ciudad de México",9,"Milpa Alta",236,"Cuaxaltepec",0,0,1,1,0,0
+9,"Ciudad de México",9,"Milpa Alta",237,"Tenopantitla","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",239,"Tecpallo",4,6,1,0,1,1
+9,"Ciudad de México",9,"Milpa Alta",241,"Loma Bonita",5,6,1,0,3,2
+9,"Ciudad de México",9,"Milpa Alta",242,"Cuacuahotlipa",12,16,20,16,14,10
+9,"Ciudad de México",9,"Milpa Alta",243,"Nacatulatlaxco",1,1,0,1,1,1
+9,"Ciudad de México",9,"Milpa Alta",244,"Tlacoxpa (Teshutla)",1,1,2,2,1,2
+9,"Ciudad de México",9,"Milpa Alta",245,"Citlalcuac (Rancho el Paraíso Perdido)",7,8,4,8,1,0
+9,"Ciudad de México",9,"Milpa Alta",246,"Atoctenco (Prolongación Niños Héroes)",4,6,0,7,5,3
+9,"Ciudad de México",9,"Milpa Alta",248,"Paraje Huicalco",5,4,4,8,4,5
+9,"Ciudad de México",9,"Milpa Alta",249,"Los Aguilar",0,0,0,0,1,0
+9,"Ciudad de México",9,"Milpa Alta",250,"Tetexaloca",4,0,1,1,0,1
+9,"Ciudad de México",9,"Milpa Alta",251,"Prolongación Justo Sierra",2,2,5,3,2,3
+9,"Ciudad de México",9,"Milpa Alta",252,"Acatlahuco",4,4,4,5,7,7
+9,"Ciudad de México",9,"Milpa Alta",253,"Xalmoyo",3,8,5,3,5,3
+9,"Ciudad de México",9,"Milpa Alta",254,"Oluca",19,20,13,16,11,17
+9,"Ciudad de México",9,"Milpa Alta",256,"Tlalcoxtepec",8,10,7,8,8,12
+9,"Ciudad de México",9,"Milpa Alta",257,"Camino Viejo a Santa Cruz",3,3,4,4,1,2
+9,"Ciudad de México",9,"Milpa Alta",258,"Concla (Camino a Tlaltenamic)","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",264,"Panuca (Cuatexoxoco)",1,3,4,1,1,1
+9,"Ciudad de México",9,"Milpa Alta",265,"Tlaltepec (Tlacoxtepec)",4,6,7,10,4,2
+9,"Ciudad de México",9,"Milpa Alta",266,"Chimeo (Las Palmas)",6,7,9,12,1,5
+9,"Ciudad de México",9,"Milpa Alta",268,"Moxala",6,6,6,5,7,9
+9,"Ciudad de México",9,"Milpa Alta",269,"El Cerrito",6,9,10,15,15,8
+9,"Ciudad de México",9,"Milpa Alta",271,"San Miguel (Tecoxomayehualtitla)",1,2,2,2,1,1
+9,"Ciudad de México",9,"Milpa Alta",274,"Tlalmanco (Prolongación Benito Juárez)",0,0,1,1,1,0
+9,"Ciudad de México",9,"Milpa Alta",275,"Tlalcocomoya",2,1,0,2,1,0
+9,"Ciudad de México",9,"Milpa Alta",276,"Paraje Tatazquiopa",0,1,2,2,0,0
+9,"Ciudad de México",9,"Milpa Alta",277,"Atoctenco",21,29,29,20,26,25
+9,"Ciudad de México",9,"Milpa Alta",278,"Tecamac",6,1,3,1,1,2
+9,"Ciudad de México",9,"Milpa Alta",280,"Teutlalpa",0,0,0,0,1,1
+9,"Ciudad de México",9,"Milpa Alta",281,"Zihuantemohuayan",2,0,1,2,1,2
+9,"Ciudad de México",9,"Milpa Alta",282,"Las Abejas",1,1,1,1,1,0
+9,"Ciudad de México",9,"Milpa Alta",283,"Tlatzala",3,2,2,0,2,1
+9,"Ciudad de México",9,"Milpa Alta",284,"Tetzompa",5,3,2,3,3,3
+9,"Ciudad de México",9,"Milpa Alta",285,"Tuzanco (La Joya)",16,27,17,9,19,16
+9,"Ciudad de México",9,"Milpa Alta",286,"San José López Trejo","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",288,"Tlacopanco",5,3,1,3,3,4
+9,"Ciudad de México",9,"Milpa Alta",289,"Pixucaltitla",2,4,0,1,4,0
+9,"Ciudad de México",9,"Milpa Alta",290,"Totomacuentla","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",291,"Kilómetro 24",4,0,1,0,1,1
+9,"Ciudad de México",9,"Milpa Alta",292,"Joyas Parte Alta",31,34,34,25,29,29
+9,"Ciudad de México",9,"Milpa Alta",294,"Acuexcomatl","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",297,"San Antonio Cuilotepec",16,24,21,20,18,18
+9,"Ciudad de México",9,"Milpa Alta",300,"San Nicolás Tetelco",178,179,165,172,173,177
+9,"Ciudad de México",9,"Milpa Alta",301,"El Tejocote",8,7,3,5,3,1
+9,"Ciudad de México",9,"Milpa Alta",302,"Ejidos Tecoxpa","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",303,"Arboledas",7,13,5,3,9,8
+9,"Ciudad de México",9,"Milpa Alta",304,"Emiliano Zapata (Camino al Cerro)",2,2,1,1,3,0
+9,"Ciudad de México",9,"Milpa Alta",305,"Corraltitla",6,9,10,10,3,12
+9,"Ciudad de México",9,"Milpa Alta",306,"Tepanoco",1,0,0,0,1,0
+9,"Ciudad de México",9,"Milpa Alta",309,"Zacatipla","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",310,"Santa Martha Xolco",0,0,0,2,2,6
+9,"Ciudad de México",9,"Milpa Alta",312,"Tepetitla (Villa Hermosa)",1,3,2,1,0,1
+9,"Ciudad de México",9,"Milpa Alta",313,"Totoxhpa (Cerrada Culiacán)",0,1,0,3,1,0
+9,"Ciudad de México",9,"Milpa Alta",314,"Belizario Domínguez",5,8,9,12,9,10
+9,"Ciudad de México",9,"Milpa Alta",315,"Nuchtla",20,19,20,30,24,28
+9,"Ciudad de México",9,"Milpa Alta",316,"Tehuizco",18,13,17,7,14,21
+9,"Ciudad de México",9,"Milpa Alta",317,"Axayatipac",11,9,8,12,13,9
+9,"Ciudad de México",9,"Milpa Alta",318,"Ayotepec",2,7,3,5,3,3
+9,"Ciudad de México",9,"Milpa Alta",319,"Ochpantenco",0,2,7,1,0,2
+9,"Ciudad de México",9,"Milpa Alta",321,"La Virgen",0,1,0,0,2,0
+9,"Ciudad de México",9,"Milpa Alta",322,"Matlahuacaloca",16,11,8,9,7,4
+9,"Ciudad de México",9,"Milpa Alta",323,"Tula (Huixtotlazintla)",4,12,4,3,3,4
+9,"Ciudad de México",9,"Milpa Alta",326,"Tlatlapantunco",1,0,0,1,2,3
+9,"Ciudad de México",9,"Milpa Alta",328,"San Agustín",4,5,3,2,3,3
+9,"Ciudad de México",9,"Milpa Alta",332,"Los Angeles",0,1,2,0,2,1
+9,"Ciudad de México",9,"Milpa Alta",333,"Tezontlipac (San Lorenzo Tlacoyucan)",0,4,3,0,0,1
+9,"Ciudad de México",9,"Milpa Alta",337,"Tlalzonco",2,3,2,3,3,2
+9,"Ciudad de México",9,"Milpa Alta",338,"Temazcaltitla",6,3,3,5,1,1
+9,"Ciudad de México",9,"Milpa Alta",340,"Chautonco",8,6,4,6,6,8
+9,"Ciudad de México",9,"Milpa Alta",341,"Texotitla",0,2,0,2,2,0
+9,"Ciudad de México",9,"Milpa Alta",342,"Coatepec",6,9,5,4,3,3
+9,"Ciudad de México",9,"Milpa Alta",344,"Ocotitla (Barrio de Santa Cruz)",3,2,3,2,2,3
+9,"Ciudad de México",9,"Milpa Alta",345,"Teuhtli",2,1,3,2,4,3
+9,"Ciudad de México",9,"Milpa Alta",347,"Xochiatlaco",1,0,1,0,0,1
+9,"Ciudad de México",9,"Milpa Alta",348,"Huacaltunco",2,7,7,1,0,2
+9,"Ciudad de México",9,"Milpa Alta",351,"Tlahuiztpa",4,10,6,6,8,2
+9,"Ciudad de México",9,"Milpa Alta",352,"Zacacali",2,2,3,5,6,8
+9,"Ciudad de México",9,"Milpa Alta",354,"Camino Viejo a Tlaltenamic",2,4,0,2,1,4
+9,"Ciudad de México",9,"Milpa Alta",355,"Joyas del Pedregal",3,0,3,3,1,2
+9,"Ciudad de México",9,"Milpa Alta",356,"Los Romero",1,1,0,0,1,1
+9,"Ciudad de México",9,"Milpa Alta",357,"Rancho Viejo","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",358,"Don Diegoco",0,3,2,4,0,0
+9,"Ciudad de México",9,"Milpa Alta",359,"Apilintitla",2,6,6,0,1,2
+9,"Ciudad de México",9,"Milpa Alta",360,"Atlahuitonca",5,3,6,9,5,7
+9,"Ciudad de México",9,"Milpa Alta",361,"Xilozuchitl",3,3,4,1,5,5
+9,"Ciudad de México",9,"Milpa Alta",362,"Tenco",0,0,0,1,1,1
+9,"Ciudad de México",9,"Milpa Alta",363,"Xonacatepec",1,0,1,0,1,2
+9,"Ciudad de México",9,"Milpa Alta",364,"Xicalhuacan",3,0,1,1,2,3
+9,"Ciudad de México",9,"Milpa Alta",365,"Ixotitla",1,2,1,2,1,2
+9,"Ciudad de México",9,"Milpa Alta",366,"Xaltenco",0,2,1,0,2,0
+9,"Ciudad de México",9,"Milpa Alta",367,"Tlaquexpa",2,0,2,1,3,0
+9,"Ciudad de México",9,"Milpa Alta",368,"Pipitongo","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",369,"Encinos",0,0,0,0,0,0
+9,"Ciudad de México",9,"Milpa Alta",370,"Tehuehuec",1,3,1,1,0,1
+9,"Ciudad de México",9,"Milpa Alta",371,"Tlalaxco",4,2,3,5,3,2
+9,"Ciudad de México",9,"Milpa Alta",372,"Apetatita",4,5,4,4,2,2
+9,"Ciudad de México",9,"Milpa Alta",373,"Texali",5,1,1,4,6,5
+9,"Ciudad de México",9,"Milpa Alta",374,"Xilutepec",3,2,0,0,0,1
+9,"Ciudad de México",9,"Milpa Alta",378,"Don Guillermo","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",379,"Ixtonpaxtitla","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",380,"Texico",0,2,1,2,0,0
+9,"Ciudad de México",9,"Milpa Alta",381,"El Santanero","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",382,"Hueyahuatitla","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",383,"Zopilocalco (Tatamazquipa)","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",384,"Acopilipan",3,2,1,1,1,2
+9,"Ciudad de México",9,"Milpa Alta",385,"Hueyitlatile",1,0,0,1,0,0
+9,"Ciudad de México",9,"Milpa Alta",386,"Coyote","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",387,"El Triángulo","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",388,"La Purísima",3,1,4,2,7,5
+9,"Ciudad de México",9,"Milpa Alta",389,"Atempa",1,5,0,2,2,2
+9,"Ciudad de México",9,"Milpa Alta",390,"Tlacuitlaya",0,0,0,0,0,1
+9,"Ciudad de México",9,"Milpa Alta",391,"Cruz Tlaltempa",2,1,2,1,1,1
+9,"Ciudad de México",9,"Milpa Alta",392,"Ahuatitla (El Tecorral)",6,4,5,1,3,5
+9,"Ciudad de México",9,"Milpa Alta",393,"Xaltepec","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",394,"Limonuxititla","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",395,"Cuapetzayuca",0,0,0,0,1,1
+9,"Ciudad de México",9,"Milpa Alta",396,"Techalli","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",400,"El Dios Tláloc","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",401,"La Loma de San José","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",402,"Tepozán Seco","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",403,"Memeyuca",0,1,0,0,0,0
+9,"Ciudad de México",9,"Milpa Alta",407,"Papalocahuitl",0,2,0,2,2,1
+9,"Ciudad de México",9,"Milpa Alta",408,"Cilxúchitl","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",410,"Tlaltelpampa",2,0,1,0,0,0
+9,"Ciudad de México",9,"Milpa Alta",411,"La Cruz","*","*","*","*","*","*"
+9,"Ciudad de México",9,"Milpa Alta",413,"Tepecuescotitla (San Antonio)",1,1,1,3,0,0
+9,"Ciudad de México",9,"Milpa Alta",414,"La Lupita Tlacotenco",0,0,0,1,0,1
+9,"Ciudad de México",9,"Milpa Alta",415,"Cristo Rey (Emiliano Zapata)",10,4,4,9,6,2
+9,"Ciudad de México",9,"Milpa Alta",9998,"Localidades de una vivienda",1,5,1,0,1,0
+9,"Ciudad de México",9,"Milpa Alta",9999,"Localidades de dos viviendas",4,6,2,3,2,1
+9,"Ciudad de México",10,"Álvaro Obregón",0,"Total del Municipio",27247,27601,30073,29868,31159,29549
+9,"Ciudad de México",10,"Álvaro Obregón",1,"Álvaro Obregón",27236,27597,30064,29863,31156,29537
+9,"Ciudad de México",10,"Álvaro Obregón",7,"Rancho Barbechos","*","*","*","*","*","*"
+9,"Ciudad de México",10,"Álvaro Obregón",213,"Ojo de Agua",6,2,2,2,1,3
+9,"Ciudad de México",10,"Álvaro Obregón",214,"Camino a la Bandera",1,0,0,0,0,3
+9,"Ciudad de México",10,"Álvaro Obregón",215,"Tiximaloya",0,0,0,0,0,1
+9,"Ciudad de México",10,"Álvaro Obregón",216,"El Ermitaño (Paraje el Chipil)",3,2,7,1,2,4
+9,"Ciudad de México",10,"Álvaro Obregón",217,"Texcalatlaco",1,0,0,1,0,0
+9,"Ciudad de México",10,"Álvaro Obregón",9998,"Localidades de una vivienda","*","*","*","*","*","*"
+9,"Ciudad de México",11,"Tláhuac",0,"Total del Municipio",15738,16651,16610,16963,16937,16493
+9,"Ciudad de México",11,"Tláhuac",1,"Tláhuac",12841,13610,13672,13979,14032,13608
+9,"Ciudad de México",11,"Tláhuac",11,"San Andrés Mixquic",581,622,604,586,543,548
+9,"Ciudad de México",11,"Tláhuac",21,"San Juan Ixtayopan",1119,1192,1169,1205,1221,1259
+9,"Ciudad de México",11,"Tláhuac",24,"San Nicolás Tetelco",230,189,200,179,218,196
+9,"Ciudad de México",11,"Tláhuac",26,"Santa Catarina Yecahuitzotl",499,545,496,521,459,448
+9,"Ciudad de México",11,"Tláhuac",69,"San Miguel",5,7,16,13,11,13
+9,"Ciudad de México",11,"Tláhuac",71,"Tabla los Pozos",18,16,11,15,19,13
+9,"Ciudad de México",11,"Tláhuac",72,"Mesita del Capulín",3,2,5,11,4,3
+9,"Ciudad de México",11,"Tláhuac",76,"Ojo de Agua",6,6,6,4,3,5
+9,"Ciudad de México",11,"Tláhuac",81,"San Miguel (Chinampas)",2,4,4,5,4,3
+9,"Ciudad de México",11,"Tláhuac",86,"Xila",6,4,11,7,5,4
+9,"Ciudad de México",11,"Tláhuac",87,"Axolocalco (Prolongación Santa Cruz)",2,3,4,4,2,4
+9,"Ciudad de México",11,"Tláhuac",89,"El Tetecon (El Solitario)",1,1,0,0,0,0
+9,"Ciudad de México",11,"Tláhuac",94,"Chinampa San Juan",0,0,0,0,0,0
+9,"Ciudad de México",11,"Tláhuac",95,"Fin de Galeana","*","*","*","*","*","*"
+9,"Ciudad de México",11,"Tláhuac",103,"Paraje Xometitla",3,4,8,5,9,12
+9,"Ciudad de México",11,"Tláhuac",104,"San Ignacio de Loyola",54,39,44,46,34,34
+9,"Ciudad de México",11,"Tláhuac",108,"Paraje Ayecac",6,4,1,5,1,1
+9,"Ciudad de México",11,"Tláhuac",110,"La Ciénega",134,142,149,138,157,135
+9,"Ciudad de México",11,"Tláhuac",111,"Chinampas Tetelco",2,1,1,1,1,2
+9,"Ciudad de México",11,"Tláhuac",113,"Lomas de Xocotlán",14,10,11,9,7,5
+9,"Ciudad de México",11,"Tláhuac",116,"Santa Catarina [Lienzo Charro]","*","*","*","*","*","*"
+9,"Ciudad de México",11,"Tláhuac",119,"Tierra Blanca Parte Alta",6,11,11,11,7,9
+9,"Ciudad de México",11,"Tláhuac",122,"Las Tablas","*","*","*","*","*","*"
+9,"Ciudad de México",11,"Tláhuac",126,"Camino a Tlaltenco",4,10,2,2,3,1
+9,"Ciudad de México",11,"Tláhuac",128,"Prolongación Peña Alta",9,7,2,2,5,2
+9,"Ciudad de México",11,"Tláhuac",129,"Rancho los Pollitos",0,0,3,1,1,1
+9,"Ciudad de México",11,"Tláhuac",133,"Ejido de San Juan Ixtayopan",2,2,1,0,1,1
+9,"Ciudad de México",11,"Tláhuac",134,"Tabla Telocuatitla",0,0,1,3,2,1
+9,"Ciudad de México",11,"Tláhuac",136,"El Pato",15,15,14,13,16,15
+9,"Ciudad de México",11,"Tláhuac",137,"Ejido de Tláhuac",2,2,4,3,0,1
+9,"Ciudad de México",11,"Tláhuac",140,"El Paraíso (Mecoxtla)",79,84,62,65,69,56
+9,"Ciudad de México",11,"Tláhuac",141,"Colonia los 500 metros",20,24,12,25,14,21
+9,"Ciudad de México",11,"Tláhuac",142,"Ampliación San Miguel",12,11,14,15,12,13
+9,"Ciudad de México",11,"Tláhuac",143,"Ninguno","*","*","*","*","*","*"
+9,"Ciudad de México",11,"Tláhuac",145,"Xalpa (López Portillo)",11,10,13,14,12,8
+9,"Ciudad de México",11,"Tláhuac",146,"Piñón",2,5,3,1,1,2
+9,"Ciudad de México",11,"Tláhuac",148,"Puertantitla (Camino al Cerro)",13,13,13,15,13,13
+9,"Ciudad de México",11,"Tláhuac",149,"Prolongación el Rosario",4,3,6,7,8,9
+9,"Ciudad de México",11,"Tláhuac",150,"La Nopalera",2,0,3,1,1,4
+9,"Ciudad de México",11,"Tláhuac",152,"Bugambilias",0,3,0,1,0,0
+9,"Ciudad de México",11,"Tláhuac",153,"Tezontitla",0,2,1,3,2,2
+9,"Ciudad de México",11,"Tláhuac",154,"Xalatlayco",8,4,4,8,7,10
+9,"Ciudad de México",11,"Tláhuac",155,"El Capulín",2,1,1,5,1,1
+9,"Ciudad de México",11,"Tláhuac",156,"Las Palmas",1,1,1,1,0,0
+9,"Ciudad de México",11,"Tláhuac",157,"Tezontenco","*","*","*","*","*","*"
+9,"Ciudad de México",11,"Tláhuac",158,"Las Calabacitas","*","*","*","*","*","*"
+9,"Ciudad de México",11,"Tláhuac",159,"Apoyautla (Cerro de Guadalupe)",9,21,14,13,12,14
+9,"Ciudad de México",11,"Tláhuac",160,"Las Nieves (Almoloya)",3,7,3,10,6,3
+9,"Ciudad de México",11,"Tláhuac",161,"La Cruz",0,3,1,1,2,3
+9,"Ciudad de México",11,"Tláhuac",162,"Mixtlaplan",3,8,3,8,4,3
+9,"Ciudad de México",11,"Tláhuac",163,"El Llano",4,2,2,0,4,3
+9,"Ciudad de México",11,"Tláhuac",9998,"Localidades de una vivienda",0,0,1,1,1,2
+9,"Ciudad de México",11,"Tláhuac",9999,"Localidades de dos viviendas",1,1,3,1,3,2
+9,"Ciudad de México",12,"Tlalpan",0,"Total del Municipio",25919,27036,28401,29172,28601,27809
+9,"Ciudad de México",12,"Tlalpan",1,"Tlalpan",21550,22493,24049,24728,24096,23550
+9,"Ciudad de México",12,"Tlalpan",19,"Parres (El Guarda)",126,134,144,148,157,140
+9,"Ciudad de México",12,"Tlalpan",26,"San Miguel Ajusco",1615,1713,1571,1614,1727,1535
+9,"Ciudad de México",12,"Tlalpan",27,"San Miguel Topilejo",1779,1855,1833,1874,1867,1775
+9,"Ciudad de México",12,"Tlalpan",105,"Apapaxtles",2,3,3,3,3,3
+9,"Ciudad de México",12,"Tlalpan",108,"Paraje Cercatenco","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",112,"Cañada del Acueducto",3,8,11,3,8,6
+9,"Ciudad de México",12,"Tlalpan",114,"Cuamino",2,0,1,0,0,1
+9,"Ciudad de México",12,"Tlalpan",118,"La Cima","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",123,"Xacatixtla (Granja la Garriga)","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",124,"Héroes de 1910",16,26,18,21,24,21
+9,"Ciudad de México",12,"Tlalpan",128,"Las Raíces",4,1,1,1,0,0
+9,"Ciudad de México",12,"Tlalpan",129,"Kilómetro 38","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",130,"Kilómetro 36.5 (El Crucero)",5,2,6,5,5,1
+9,"Ciudad de México",12,"Tlalpan",131,"Las Maravillas (Kilómetro 37)",5,3,0,2,2,1
+9,"Ciudad de México",12,"Tlalpan",132,"Kilómetro 33.5",0,0,0,0,0,0
+9,"Ciudad de México",12,"Tlalpan",135,"Lomas de Tepemecatl",182,185,195,158,172,173
+9,"Ciudad de México",12,"Tlalpan",140,"El Oyamel","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",144,"Piedra Larga",29,25,19,31,15,24
+9,"Ciudad de México",12,"Tlalpan",145,"Piedras Blancas","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",152,"Rancho Ramírez","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",155,"La Fortaleza","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",159,"La Pedrera",5,3,2,5,5,3
+9,"Ciudad de México",12,"Tlalpan",161,"El Pedregal",36,32,35,39,34,29
+9,"Ciudad de México",12,"Tlalpan",162,"El Sifón",9,5,3,5,5,5
+9,"Ciudad de México",12,"Tlalpan",168,"Chalcuitongo (La Asunción)",49,64,45,48,43,48
+9,"Ciudad de México",12,"Tlalpan",175,"Siete Ocotes",1,1,3,1,3,1
+9,"Ciudad de México",12,"Tlalpan",179,"El Charco",35,27,43,39,32,32
+9,"Ciudad de México",12,"Tlalpan",187,"Huinixco",18,11,15,18,17,14
+9,"Ciudad de México",12,"Tlalpan",192,"Rancho Kyalami","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",193,"Los Sauces","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",198,"La Troje",0,1,0,2,1,0
+9,"Ciudad de México",12,"Tlalpan",199,"El Cofrecito","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",201,"Rancho los Compadres","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",207,"Camino Viejo a San Andrés","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",209,"Rancho San Nicolás","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",210,"El Arenal",3,1,0,0,7,3
+9,"Ciudad de México",12,"Tlalpan",216,"Cuanejaque",2,6,9,13,12,10
+9,"Ciudad de México",12,"Tlalpan",217,"El Oyameyo",6,10,4,6,5,7
+9,"Ciudad de México",12,"Tlalpan",218,"Parada Oyameyo (Kilómetro 31.5)",4,8,5,6,5,3
+9,"Ciudad de México",12,"Tlalpan",220,"La Campana",0,0,0,1,1,0
+9,"Ciudad de México",12,"Tlalpan",221,"La Rufina",3,3,1,3,3,5
+9,"Ciudad de México",12,"Tlalpan",222,"Nopaltitla",29,28,38,23,34,32
+9,"Ciudad de México",12,"Tlalpan",229,"Tres Cabañas","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",232,"El Alambrado","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",237,"Xomulco (Oyamertonco)",1,3,2,3,1,4
+9,"Ciudad de México",12,"Tlalpan",246,"Rancho Chico","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",249,"Rancho los Cedros del Abuelo","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",252,"La Morucha","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",254,"Barranquilla",0,0,3,1,0,3
+9,"Ciudad de México",12,"Tlalpan",256,"La Capilla","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",262,"El Sicomoro","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",263,"Tlamenelolpa (Los Encinos)","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",265,"La Candelaria","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",266,"La Providencia","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",267,"Finca Trancas (UCAPSA)","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",268,"Kilómetro 32.3","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",269,"Temaxcatitla (Kilómetro 32.2)",2,1,1,4,2,6
+9,"Ciudad de México",12,"Tlalpan",272,"Colonia Ocotla",7,4,4,6,2,5
+9,"Ciudad de México",12,"Tlalpan",275,"Kilómetro 29.5",5,1,2,1,2,1
+9,"Ciudad de México",12,"Tlalpan",276,"Lomas del Capulín (Kilómetro 30)",28,23,27,22,18,20
+9,"Ciudad de México",12,"Tlalpan",277,"Tlatepancaltitla (Kilómetro 30.5)",1,2,3,1,3,2
+9,"Ciudad de México",12,"Tlalpan",278,"José María Morelos","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",280,"Tlalalpuente",1,2,0,1,1,0
+9,"Ciudad de México",12,"Tlalpan",282,"Ocotla Chico",38,42,43,35,29,38
+9,"Ciudad de México",12,"Tlalpan",283,"Paraje Atonco",3,2,1,2,0,0
+9,"Ciudad de México",12,"Tlalpan",290,"La Herradura",37,44,33,41,34,40
+9,"Ciudad de México",12,"Tlalpan",291,"Carretera al Ajusco",2,1,2,4,3,5
+9,"Ciudad de México",12,"Tlalpan",295,"Chahualixcantitla",1,2,0,0,0,0
+9,"Ciudad de México",12,"Tlalpan",296,"Lomas de San José",5,3,1,3,3,3
+9,"Ciudad de México",12,"Tlalpan",300,"Colonia San Juan",5,11,7,11,8,11
+9,"Ciudad de México",12,"Tlalpan",301,"Colonia Aguayoto",11,12,11,9,13,16
+9,"Ciudad de México",12,"Tlalpan",302,"Los Encinos",3,4,6,5,1,3
+9,"Ciudad de México",12,"Tlalpan",303,"Kilómetro 32.1","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",305,"Lienzo Charro Pepe Castro","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",310,"Camino a la Venta",3,4,2,2,3,2
+9,"Ciudad de México",12,"Tlalpan",311,"La Monera",0,0,0,1,1,2
+9,"Ciudad de México",12,"Tlalpan",316,"Huiquilahua","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",317,"El Tianguillo",1,0,0,0,0,0
+9,"Ciudad de México",12,"Tlalpan",319,"Popotenco",0,2,1,0,0,0
+9,"Ciudad de México",12,"Tlalpan",325,"Planta Abasolo",6,2,4,3,4,4
+9,"Ciudad de México",12,"Tlalpan",326,"Cuauhtenco",1,1,0,0,0,1
+9,"Ciudad de México",12,"Tlalpan",327,"Tepozán [Parque Ecoturístico]","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",328,"Ejidos de San Andrés Totoltepec",18,14,15,19,16,18
+9,"Ciudad de México",12,"Tlalpan",330,"Área de los Venados (La SIREFA)","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",333,"Prolongación Acueducto",2,2,1,0,0,1
+9,"Ciudad de México",12,"Tlalpan",335,"Rancho el Tordi...yo","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",337,"Rancho Yamel","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",339,"El Oyamel",2,0,0,1,0,0
+9,"Ciudad de México",12,"Tlalpan",340,"Rancho Tres Hermanos","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",341,"Las Cruces","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",342,"Rancho Matamoros",0,2,1,0,0,1
+9,"Ciudad de México",12,"Tlalpan",343,"Rancho Valentina","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",346,"Tepehuaxotla (Prolongación Pirámide)",11,3,11,14,6,5
+9,"Ciudad de México",12,"Tlalpan",347,"Las Calaveras (Doña Cristy)","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",350,"Los Tlapancos",5,11,8,7,5,5
+9,"Ciudad de México",12,"Tlalpan",351,"Carretera al Ajusco II",7,9,4,7,5,3
+9,"Ciudad de México",12,"Tlalpan",353,"Camino Antiguo a Cuernavaca","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",354,"Acazacatongo",8,1,4,3,2,6
+9,"Ciudad de México",12,"Tlalpan",355,"Acueducto 1ra. Sección",4,1,0,0,1,2
+9,"Ciudad de México",12,"Tlalpan",356,"El Campo",1,3,0,0,0,0
+9,"Ciudad de México",12,"Tlalpan",357,"Cuatzontle",3,3,0,1,1,0
+9,"Ciudad de México",12,"Tlalpan",358,"El Arcoiris",14,12,7,10,8,9
+9,"Ciudad de México",12,"Tlalpan",359,"Tixtapaltongo (Loma de Ahuayoto)",0,1,1,0,0,0
+9,"Ciudad de México",12,"Tlalpan",360,"Rancho Ahuayoto",0,0,0,0,0,0
+9,"Ciudad de México",12,"Tlalpan",361,"Oyametonco",0,0,1,0,1,0
+9,"Ciudad de México",12,"Tlalpan",362,"Cansacaballos","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",364,"Bellavista","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",365,"Ojo de Agua","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",368,"Tepelancoxtla","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",371,"San Agustín","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",373,"Ispancolohuia",2,0,1,2,3,1
+9,"Ciudad de México",12,"Tlalpan",374,"Paraje Tlalmenelolpa",6,1,4,4,3,5
+9,"Ciudad de México",12,"Tlalpan",376,"Teteocotla",14,10,10,20,9,7
+9,"Ciudad de México",12,"Tlalpan",377,"Paraje el Tezontle Acopiaxco","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",378,"Rancho Viejo",0,1,2,4,3,1
+9,"Ciudad de México",12,"Tlalpan",379,"Paraje el Negro","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",381,"Ololica (Loloigque)",9,2,7,4,8,8
+9,"Ciudad de México",12,"Tlalpan",383,"Tepacheras (Kilómetro 31)",1,5,3,5,4,7
+9,"Ciudad de México",12,"Tlalpan",389,"La Loma","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",390,"La Reja",1,2,2,1,1,2
+9,"Ciudad de México",12,"Tlalpan",391,"Popocotla",4,3,0,4,4,2
+9,"Ciudad de México",12,"Tlalpan",392,"Colonia Cuauhtenco (Kilómetro 27)",3,2,1,2,2,4
+9,"Ciudad de México",12,"Tlalpan",393,"Kilómetro 28 Sur",11,11,14,9,12,16
+9,"Ciudad de México",12,"Tlalpan",394,"Paraje Buenavista",5,11,10,4,3,8
+9,"Ciudad de México",12,"Tlalpan",395,"Los Encinos [Rancho]","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",396,"Tezontitla",34,50,31,33,36,42
+9,"Ciudad de México",12,"Tlalpan",398,"Rancho Teo","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",399,"Piedra Suelta",15,10,11,9,10,9
+9,"Ciudad de México",12,"Tlalpan",401,"El Retiro","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",403,"Las Castañas","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",404,"San Carlos","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",405,"Rancho Chato","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",406,"El Capricho","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",407,"El Sillar","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",409,"Rancho Nevado","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",410,"La Soledad",0,0,0,2,0,1
+9,"Ciudad de México",12,"Tlalpan",413,"El Arco Amarillo","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",414,"El Guardita","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",415,"El Capricho","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",416,"Tlayelpa",4,8,6,7,3,5
+9,"Ciudad de México",12,"Tlalpan",417,"Autriquie","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",418,"Cebadillas",2,3,3,5,1,1
+9,"Ciudad de México",12,"Tlalpan",419,"Rancho Mac","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",420,"El Salitrillo",3,7,1,2,2,1
+9,"Ciudad de México",12,"Tlalpan",421,"El Encanto","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",422,"Xoxoctongo",3,2,0,5,3,1
+9,"Ciudad de México",12,"Tlalpan",423,"La Huerta",2,0,1,0,1,1
+9,"Ciudad de México",12,"Tlalpan",424,"El Líder","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",426,"Pedregal del Xitle",2,0,0,1,1,1
+9,"Ciudad de México",12,"Tlalpan",427,"Santa Ana",2,2,1,6,2,4
+9,"Ciudad de México",12,"Tlalpan",428,"Tlapexco","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",429,"El Resumidero",10,5,4,8,6,8
+9,"Ciudad de México",12,"Tlalpan",430,"Zamora",1,1,0,0,1,1
+9,"Ciudad de México",12,"Tlalpan",431,"Acanceh","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",432,"Majadatonco","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",433,"Rancho Tequila","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",434,"La Loma","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",435,"La Manga Lagunitas","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",436,"Xililimoco",8,2,6,3,7,9
+9,"Ciudad de México",12,"Tlalpan",437,"Tierra Blanca","*","*","*","*","*","*"
+9,"Ciudad de México",12,"Tlalpan",438,"Ejido de San Miguel Xicalco",1,0,1,0,2,2
+9,"Ciudad de México",12,"Tlalpan",439,"La Joyita",4,1,5,5,4,5
+9,"Ciudad de México",12,"Tlalpan",440,"Ayopa",5,2,4,2,2,3
+9,"Ciudad de México",12,"Tlalpan",9998,"Localidades de una vivienda",9,16,8,7,6,11
+9,"Ciudad de México",12,"Tlalpan",9999,"Localidades de dos viviendas",4,3,5,4,6,5
+9,"Ciudad de México",13,"Xochimilco",0,"Total del Municipio",17223,17733,18340,18639,17952,18611
+9,"Ciudad de México",13,"Xochimilco",1,"Xochimilco",16677,17122,17760,18045,17415,18025
+9,"Ciudad de México",13,"Xochimilco",91,"Tepemimilco",9,4,5,10,2,4
+9,"Ciudad de México",13,"Xochimilco",96,"Ixotitla",3,7,9,8,12,12
+9,"Ciudad de México",13,"Xochimilco",111,"Paraje Lila (El Ladrillo)",0,1,1,1,4,1
+9,"Ciudad de México",13,"Xochimilco",112,"Paraje Texhuilo","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",113,"Zacapa",2,0,2,1,1,0
+9,"Ciudad de México",13,"Xochimilco",118,"Barrio San Antonio (Cruz Monte)",13,16,16,14,8,17
+9,"Ciudad de México",13,"Xochimilco",134,"Ampliación Chalmita",26,29,30,33,25,23
+9,"Ciudad de México",13,"Xochimilco",135,"El Mirador (Tetexaloca)","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",136,"Tepexomulco",27,27,21,25,20,25
+9,"Ciudad de México",13,"Xochimilco",137,"Tlachiultepec de Ahuayucan (Las Malvinas)",13,12,16,10,10,12
+9,"Ciudad de México",13,"Xochimilco",138,"Tepetitla (Tlacoxpan)",4,11,5,4,4,4
+9,"Ciudad de México",13,"Xochimilco",139,"Tlacualleli (El Calvario)",3,6,4,5,6,5
+9,"Ciudad de México",13,"Xochimilco",140,"Tlaltepetla (Tehuistitla)",11,4,3,10,3,6
+9,"Ciudad de México",13,"Xochimilco",143,"Tlalatlaco",3,6,3,2,5,5
+9,"Ciudad de México",13,"Xochimilco",146,"Tlatzala (Cuayuca)",10,11,11,13,7,11
+9,"Ciudad de México",13,"Xochimilco",147,"Isla de las Muñecas","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",151,"Tepuente",2,3,0,3,3,1
+9,"Ciudad de México",13,"Xochimilco",157,"Tipipili",36,41,37,36,24,40
+9,"Ciudad de México",13,"Xochimilco",160,"Tochuca (San Salvador)",16,22,13,25,15,27
+9,"Ciudad de México",13,"Xochimilco",162,"Pepelaxtla",13,15,22,17,22,18
+9,"Ciudad de México",13,"Xochimilco",163,"Tecacalango",9,14,7,4,5,11
+9,"Ciudad de México",13,"Xochimilco",164,"Tzompole",2,3,1,4,1,0
+9,"Ciudad de México",13,"Xochimilco",165,"Cacalco (Tepextenco)",0,2,0,2,0,2
+9,"Ciudad de México",13,"Xochimilco",168,"Texalco (Joyas de Texalco)","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",169,"Apatlaco",4,3,1,3,5,3
+9,"Ciudad de México",13,"Xochimilco",172,"Paraje de la Ciénega",2,3,2,2,2,3
+9,"Ciudad de México",13,"Xochimilco",177,"Kilómetro 26","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",178,"Tlapizatil (Puente de Urrutia)",6,4,6,4,9,7
+9,"Ciudad de México",13,"Xochimilco",180,"Tepexomulco las Rocas",1,1,4,2,1,3
+9,"Ciudad de México",13,"Xochimilco",181,"Ocotitla Tepachuxiac",9,14,19,16,7,12
+9,"Ciudad de México",13,"Xochimilco",182,"Tecuyo","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",183,"Hualpalcaltepec","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",184,"Atotle",16,22,9,12,18,15
+9,"Ciudad de México",13,"Xochimilco",185,"Los Tejocotes",4,1,5,1,0,1
+9,"Ciudad de México",13,"Xochimilco",187,"Tepepatlaxtle",6,7,8,5,6,8
+9,"Ciudad de México",13,"Xochimilco",190,"Tixculco",2,3,3,2,1,3
+9,"Ciudad de México",13,"Xochimilco",191,"Tecoexcontitla",11,8,11,12,19,12
+9,"Ciudad de México",13,"Xochimilco",193,"El Potrero (Bosques de la Paz)",6,3,0,1,2,1
+9,"Ciudad de México",13,"Xochimilco",195,"Paraje Tepanyecac",3,6,1,5,3,2
+9,"Ciudad de México",13,"Xochimilco",196,"Tepepula",0,1,3,1,0,4
+9,"Ciudad de México",13,"Xochimilco",197,"La Angostura",2,1,0,0,0,0
+9,"Ciudad de México",13,"Xochimilco",198,"Sihuatlixpa",1,1,1,0,1,0
+9,"Ciudad de México",13,"Xochimilco",201,"Cuatixi",3,3,3,3,1,2
+9,"Ciudad de México",13,"Xochimilco",202,"Paraje Zacapa",37,39,42,41,40,40
+9,"Ciudad de México",13,"Xochimilco",203,"Santa Catarina (Piedra Blanca)",1,1,2,4,1,2
+9,"Ciudad de México",13,"Xochimilco",204,"Huepaltepec",7,3,4,1,1,3
+9,"Ciudad de México",13,"Xochimilco",205,"Tecuanatla (Arenal Papanco)",3,8,6,7,4,9
+9,"Ciudad de México",13,"Xochimilco",206,"Tepepecalachico (Inopilco)",2,0,0,0,0,2
+9,"Ciudad de México",13,"Xochimilco",207,"Rancho la Flor","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",208,"Los Cedros","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",209,"Tepeclite",2,0,4,4,0,1
+9,"Ciudad de México",13,"Xochimilco",210,"Acalipa",3,5,1,1,0,2
+9,"Ciudad de México",13,"Xochimilco",213,"Ampliación Bugambilias (Nauhtecpan)",11,4,2,2,4,6
+9,"Ciudad de México",13,"Xochimilco",214,"Tepeyecac (El Arenal)",7,4,3,5,4,4
+9,"Ciudad de México",13,"Xochimilco",215,"Tepexomulco (Kilómetro 27.8)",0,0,0,0,1,0
+9,"Ciudad de México",13,"Xochimilco",218,"Ixcuicuilco",1,1,2,1,2,2
+9,"Ciudad de México",13,"Xochimilco",224,"Corralón Policía Federal de Caminos",0,1,1,0,0,1
+9,"Ciudad de México",13,"Xochimilco",226,"Cocopalcuautla",1,2,4,2,1,4
+9,"Ciudad de México",13,"Xochimilco",231,"Tecanco",15,11,17,20,10,13
+9,"Ciudad de México",13,"Xochimilco",232,"Atlaxco",1,4,6,3,7,9
+9,"Ciudad de México",13,"Xochimilco",234,"Barrio Nochicala",0,3,8,7,14,13
+9,"Ciudad de México",13,"Xochimilco",236,"Camino Real a San Pedro",3,2,8,9,11,5
+9,"Ciudad de México",13,"Xochimilco",237,"El Cedral",1,3,1,0,0,0
+9,"Ciudad de México",13,"Xochimilco",238,"La Espejera",3,2,0,2,3,3
+9,"Ciudad de México",13,"Xochimilco",239,"Ahuatitla (Texcopaxuli)",8,13,12,10,9,8
+9,"Ciudad de México",13,"Xochimilco",242,"Atenco (Tlaquilpa)",0,4,8,2,0,4
+9,"Ciudad de México",13,"Xochimilco",243,"Naxayopa",8,10,14,8,8,7
+9,"Ciudad de México",13,"Xochimilco",244,"Coapantitla",2,4,0,4,4,4
+9,"Ciudad de México",13,"Xochimilco",245,"San Martín","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",246,"Francisco Villa (Tepejoyuca)",1,2,0,4,0,1
+9,"Ciudad de México",13,"Xochimilco",247,"Tecaxi","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",249,"Chililico",3,4,3,4,6,10
+9,"Ciudad de México",13,"Xochimilco",251,"Camino al Panteón (Las Cruces)",5,4,1,2,0,1
+9,"Ciudad de México",13,"Xochimilco",252,"Texopantitla (Chocolines)",8,8,7,10,13,8
+9,"Ciudad de México",13,"Xochimilco",253,"Ilimunxutitla",6,0,3,2,6,2
+9,"Ciudad de México",13,"Xochimilco",256,"La Cienega","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",257,"Los Pinos (Tecacahuaco)",7,20,17,11,19,13
+9,"Ciudad de México",13,"Xochimilco",258,"Temamatla",4,13,10,8,9,6
+9,"Ciudad de México",13,"Xochimilco",261,"Milahuaytitla",4,2,2,2,1,1
+9,"Ciudad de México",13,"Xochimilco",262,"Nochicala (Pajaritos)",0,0,3,0,4,1
+9,"Ciudad de México",13,"Xochimilco",263,"San Juan Diego (Matlacuaitla)",3,0,1,2,3,1
+9,"Ciudad de México",13,"Xochimilco",264,"Paraje Tlahuiteco",0,1,0,0,3,1
+9,"Ciudad de México",13,"Xochimilco",265,"Moyocalco",12,8,8,7,6,3
+9,"Ciudad de México",13,"Xochimilco",266,"Cuahuticultitla",5,6,13,6,5,5
+9,"Ciudad de México",13,"Xochimilco",267,"Tizilingo",10,16,11,13,13,15
+9,"Ciudad de México",13,"Xochimilco",269,"Bosques de la Paz",7,9,12,11,10,6
+9,"Ciudad de México",13,"Xochimilco",270,"Contlalco",4,1,4,1,3,6
+9,"Ciudad de México",13,"Xochimilco",271,"Tlalmelaca",4,7,8,12,6,3
+9,"Ciudad de México",13,"Xochimilco",273,"Zacazontlipac",34,27,28,35,21,30
+9,"Ciudad de México",13,"Xochimilco",274,"Tepetlatzinco",0,2,0,0,0,0
+9,"Ciudad de México",13,"Xochimilco",275,"El Corazón",1,1,1,3,3,0
+9,"Ciudad de México",13,"Xochimilco",276,"Ocoxochoca",1,6,1,1,1,1
+9,"Ciudad de México",13,"Xochimilco",277,"Texcalatlaco",1,0,0,1,3,3
+9,"Ciudad de México",13,"Xochimilco",278,"Azizicantitla",1,4,3,5,4,3
+9,"Ciudad de México",13,"Xochimilco",280,"Duraznotitla (Tlaquilpa)","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",281,"Ahuapixititla",2,0,1,1,2,1
+9,"Ciudad de México",13,"Xochimilco",282,"El Corral",0,0,0,1,0,0
+9,"Ciudad de México",13,"Xochimilco",283,"Axomulco",3,6,0,3,2,2
+9,"Ciudad de México",13,"Xochimilco",284,"Oquetzalpa",6,1,3,2,3,4
+9,"Ciudad de México",13,"Xochimilco",285,"Texcalpa",0,2,3,2,1,2
+9,"Ciudad de México",13,"Xochimilco",286,"Acapa",0,1,0,0,1,0
+9,"Ciudad de México",13,"Xochimilco",287,"Ototzingo (Acuario)",3,1,0,0,2,0
+9,"Ciudad de México",13,"Xochimilco",288,"Tlalmenalqui","*","*","*","*","*","*"
+9,"Ciudad de México",13,"Xochimilco",289,"Zacatongo",2,4,1,2,2,1
+9,"Ciudad de México",13,"Xochimilco",290,"Ampliacion Tlapanoya Baja",3,5,2,5,1,3
+9,"Ciudad de México",13,"Xochimilco",291,"Ampliación San Bartolo",5,6,1,4,3,4
+9,"Ciudad de México",13,"Xochimilco",292,"Ampliación San Martín Caballero",1,2,1,0,1,1
+9,"Ciudad de México",13,"Xochimilco",293,"Techachalictic",0,1,1,0,0,2
+9,"Ciudad de México",13,"Xochimilco",294,"Las Cubetas",2,1,2,0,1,1
+9,"Ciudad de México",13,"Xochimilco",295,"San Sebastián",1,0,2,3,1,0
+9,"Ciudad de México",13,"Xochimilco",9998,"Localidades de una vivienda",0,0,0,1,1,1
+9,"Ciudad de México",13,"Xochimilco",9999,"Localidades de dos viviendas",3,1,0,1,1,2
+9,"Ciudad de México",14,"Benito Juárez",0,"Total del Municipio",9407,9563,12760,12351,19331,17844
+9,"Ciudad de México",14,"Benito Juárez",1,"Benito Juárez",9407,9563,12760,12351,19331,17844
+9,"Ciudad de México",15,"Cuauhtémoc",0,"Total del Municipio",15628,16162,19252,19045,25150,25021
+9,"Ciudad de México",15,"Cuauhtémoc",1,"Cuauhtémoc",15628,16162,19252,19045,25150,25021
+9,"Ciudad de México",16,"Miguel Hidalgo",0,"Total del Municipio",11257,11337,13788,13256,18160,16511
+9,"Ciudad de México",16,"Miguel Hidalgo",1,"Miguel Hidalgo",11257,11337,13788,13256,18160,16511
+9,"Ciudad de México",17,"Venustiano Carranza",0,"Total del Municipio",14875,15235,16380,16603,17693,17227
+9,"Ciudad de México",17,"Venustiano Carranza",1,"Venustiano Carranza",14875,15235,16380,16603,17693,17227
