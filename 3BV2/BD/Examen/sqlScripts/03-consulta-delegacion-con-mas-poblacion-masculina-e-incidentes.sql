@@ -14,7 +14,7 @@ FROM
     JOIN cat_sexo s ON
         dp.id_sexo = s.id_sexo
     WHERE
-        s.sexo = 'M'
+        s.sexo = 'H'
     GROUP BY
         d.delegacion
     ORDER BY
