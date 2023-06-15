@@ -1,0 +1,61 @@
+Funcion coloca7Reinas
+- vector columnas
+- vector solucion
+- vector diagonales derechas
+- vector diagonales Izquierdas
+- id_reina (numero de reina - renglon)
+
+ANALISIS DE FUNCIONES NECESARIAS
+- imprimir
+- buscarRecursos
+- verificarRecursos
+- liberarRecursos
+- apartarRecursos
+
+=======================================
+
+ANALISIS DE FUNCION 'buscarRecursos'
+* casos:
+I - un elemento del vector columna es 0
+II - un elemento del vector columna es -1
+III - un elemtno del vector es mayor a 0
+
+* acciones:
+A - regresar el numero de columna
+B - regresar un -1
+C - llama a verificar buscarRecursos
+D - llama recursivamente
+
+* parametros de funcion:
+- vector columnas
+- id_reina
+- vector de diagonañes derechas
+- vector de diagonales Izquierdas
+
+
+PSEUDICÓDIGO DE LA FUNCION buscarRecursos
+if(II){
+    return B
+}
+if(III && C){
+    return A
+}
+if(I){
+    return D
+}
+
+============================
+ANALISIS DE FUNCION 'verificarRecursos' (Tarea)
+============================
+
+ANALISIS DE FUNCION 'liberarRecursos'
+- no es una funcion recursiva pero requiere de análisis
+
+pasos a realizar:
+- calcula diagizq y actualiza(regresa) diagizq al vector diagonal izquierda
+- calcula diagder y actualiza(regresa) diagder al vector diagonal derecha
+- guarda en "variable" el contenido del vector respuesta en la posicion id_reina y coloca un 0 en esa posicion
+- guarda en el vector columna posicion "variable" el valor "variable"
+
+
+============================
