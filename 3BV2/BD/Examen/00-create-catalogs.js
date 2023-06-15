@@ -1,7 +1,7 @@
 const fs = require('fs');
 const fastcsv = require('fast-csv');
 const ObjectsToCsv = require('objects-to-csv');
-const createCsvWriter = require('fast-csv').write;
+const moment = require('moment');
 
 let delegations = [];
 let classifications = [];
@@ -100,7 +100,30 @@ let csvStream = fastcsv.parse()
             incident.tipo_entrada = entryTypes.indexOf(incident.tipo_entrada) + 1;
             incident.clas_con_f_alarma = classifications.indexOf(incident.clas_con_f_alarma) + 1;
             incident.codigo_cierre = closureCodes.indexOf(incident.codigo_cierre) + 1;
+        });        
+
+        // remove all rows with the column 'delagacion_inicio' with value 17 or delegacion_cierre with value 17
+        incidentsTable = incidentsTable.filter((incident) => {
+            return incident.delegacion_inicio !== 17 && incident.delegacion_cierre !== 17;
         });
+
+        // clean all the rows that contains ' 00:00:00.0000000' in the column 'fecha_cierre'. 
+        incidentsTable = incidentsTable.filter((incident) => {
+            if (incident.fecha_cierre.includes(' 00:00:00.0000000')) {
+                incident.fecha_cierre = incident.fecha_cierre.replace(' 00:00:00.0000000', '');
+                return true;
+            }
+            return false;
+        });
+
+        // parse the values of each 'fecha_cierre' and 'fecha_inicio' to the format 'YYYY-MM-DD'
+        incidentsTable.forEach((incident) => {
+            incident.fecha_creacion = moment(incident.fecha_creacion, 'DD/MM/YYYY').format('YYYY-MM-DD');
+            incident.fecha_cierre = moment(incident.fecha_cierre, 'YYYY-MM-DD').format('YYYY-MM-DD');
+        });        
+
+        console.log(incidentsTable[0]);
+
 
         let csv6 = new ObjectsToCsv(incidentsTable);
         await csv6.toDisk('./cleanFiles/incidentes_viales.csv');
