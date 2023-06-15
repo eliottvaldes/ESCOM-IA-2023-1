@@ -1,0 +1,19 @@
+1,accidente-choque con lesionados
+2,accidente-choque con prensados
+3,accidente-choque sin lesionados
+4,accidente-ciclista
+5,accidente-motociclista
+6,accidente-otros
+7,accidente-persona atrapada / desbarrancada
+8,accidente-vehiculo desbarrancado
+9,accidente-vehículo atrapado-varado
+10,accidente-volcadura
+11,cadáver-accidente automovilístico
+12,cadáver-atropellado
+13,detención ciudadana-accidente automovilístico
+14,detención ciudadana-atropellado
+15,lesionado-atropellado
+16,mi ciudad-calle-incidente de tránsito
+17,mi ciudad-taxi-incidente de tránsito
+18,sismo-choque con lesionados
+19,sismo-persona atropellada
