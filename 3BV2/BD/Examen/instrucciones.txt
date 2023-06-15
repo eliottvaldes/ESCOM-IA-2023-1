@@ -3,24 +3,25 @@ Usando NodeJS, lee un archivo CSV llamado './initialFiles/dataset_incidentes_via
 
 OBSERVACIONES:
 el archivo './initialFiles/dataset_incidentes_viales.csv' tien las siguientes columnas:
-- "folio"
-- "fecha_creacion"
-- "hora_creacion"
-- "dia_semana"
-- "codigo_cierre"
-- "fecha_cierre"
-- "año_cierre"
-- "mes_cierre"
-- "hora_cierre"
-- "delegacion_inicio"
-- "incidente_c4"
-- "latitud"
-- "longitud"
-- "clas_con_f_alarma"
-- "tipo_entrada"
-- "delegacion_cierre"
-- "geopoint"
-- "mes"
+COLUMNA_EN_EL_CSV - CAMPO
+0 - "folio"
+1 - "fecha_creacion"
+2 - "hora_creacion"
+3 - "dia_semana"
+4 - "codigo_cierre"
+5 - "fecha_cierre"
+6 - "año_cierre"
+7 - "mes_cierre"
+8 - "hora_cierre"
+9 - "delegacion_inicio"
+10 - "incidente_c4"
+11 - "latitud"
+12 - "longitud"
+13 - "clas_con_f_alarma"
+14 - "tipo_entrada"
+15 - "delegacion_cierre"
+16 - "geopoint"
+17 - "mes"
 
 OBJETIVOS:
 - crea los siguientes archivos csv unicamente con la infomracion indicada:
