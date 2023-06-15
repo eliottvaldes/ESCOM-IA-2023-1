@@ -1,0 +1,5 @@
+1,A,"La unidad de atención a emergencias fue despachada, llegó al lugar de los hechos y confirmó la emergencia reportada"
+2,N,"La unidad de atención a emergencias fue despachada, llegó al lugar de los hechos, pero en el sitio del evento nadie solicitó el apoyo de la unidad"
+3,D,"El incidente reportado se registró en dos o más ocasiones procediendo a mantener un único reporte (afirmativo, informativo, negativo o falso) como el identificador para el incidente"
+4,F,"El operador/a o despachador/a identifican, antes de dar respuesta a la emergencia, que ésta es falsa. O al ser despachada una unidad de atención a emergencias en el lugar de los hechos se percatan que el incidente no corresponde al reportado inicialmente"
+5,I,"El incidente reportado es afirmativo y se añade información adicional al evento
