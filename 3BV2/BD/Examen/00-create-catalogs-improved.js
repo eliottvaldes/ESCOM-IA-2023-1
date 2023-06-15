@@ -109,6 +109,32 @@ let csvStream = fastcsv.parse()
             incident.fecha_creacion = moment(incident.fecha_creacion, 'DD/MM/YYYY').format('YYYY-MM-DD');
             incident.fecha_cierre = moment(incident.fecha_cierre, 'YYYY-MM-DD').format('YYYY-MM-DD');
         });
+    
+        // verify 'hora_creacion' and 'hora_cierre' if it has a valid format. if not, replace the value with 00:00:00
+        incidentsTable.forEach((incident) => {
+            if (!moment(incident.hora_creacion, 'HH:mm:ss').isValid()) {
+                incident.hora_creacion = '00:00:00';
+                console.log(`${incident.folio} - ${incident.hora_creacion}`);
+            }
+            if (!moment(incident.hora_cierre, 'HH:mm:ss').isValid()) {
+                incident.hora_cierre = '00:00:00';
+                console.log(`${incident.folio} - ${incident.hora_cierre}`);
+            }   
+        });
+
+        // verify if 'hora_creacion' contains a '.' in the value. if its true, replace the value with 00:00:00
+        incidentsTable.forEach((incident) => {
+            if (incident.hora_creacion.includes('.')) {
+                incident.hora_creacion = '00:00:00';
+                console.log(`${incident.folio} - ${incident.hora_creacion}`);
+            }
+
+            if (incident.hora_cierre.includes('.')) {
+                incident.hora_cierre = '00:00:00';
+                console.log(`${incident.folio} - ${incident.hora_cierre}`);
+            }
+            
+        });
 
         // create 'timestap_creacion' and 'timeatamp_cierre' columns with the format 'YYYY-MM-DD HH:mm:ss'
         incidentsTable.forEach((incident) => {
@@ -131,7 +157,7 @@ let csvStream = fastcsv.parse()
             incident.geopoint = geopoint;
         });
 
-
+/* 
         let csv1 = new ObjectsToCsv(delegations.map((del, index) => ({ id_delegacion: index + 1, delegacion: del })));
         await csv1.toDisk('./cleanFilesImproved/cat_delegacion.csv');
         console.log(`File cat_delegacion.csv created`);
@@ -150,7 +176,8 @@ let csvStream = fastcsv.parse()
 
         let csv5 = new ObjectsToCsv(closureCodes.map((code, index) => ({ id_codigo_cierre: index + 1, codigo_cierre: code, descripcion: null })));
         await csv5.toDisk('./cleanFilesImproved/cat_incidente_codigo_cierre.csv');
-        console.log(`File cat_incidente_codigo_cierre.csv created`);
+        console.log(`File cat_incidente_codigo_cierre.csv created`); */
+        
         let csv6 = new ObjectsToCsv(incidentsTable);
         await csv6.toDisk('./cleanFilesImproved/t_incidente.csv');
         console.log(`File incidentes_viales.csv created`);
