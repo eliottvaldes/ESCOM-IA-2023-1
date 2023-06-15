@@ -120,13 +120,10 @@ let csvStream = fastcsv.parse()
         incidentsTable.forEach((incident) => {
             incident.fecha_creacion = moment(incident.fecha_creacion, 'DD/MM/YYYY').format('YYYY-MM-DD');
             incident.fecha_cierre = moment(incident.fecha_cierre, 'YYYY-MM-DD').format('YYYY-MM-DD');
-        });        
-
-        console.log(incidentsTable[0]);
-
+        });
 
         let csv6 = new ObjectsToCsv(incidentsTable);
-        await csv6.toDisk('./cleanFiles/incidentes_viales.csv');
+        await csv6.toDisk('./cleanFiles/t_incidente.csv');
         console.log(`File incidentes_viales.csv created`);
 
     });
