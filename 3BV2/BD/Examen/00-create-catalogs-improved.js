@@ -77,26 +77,6 @@ let csvStream = fastcsv.parse()
         entryTypes.sort();
 
 
-        let csv1 = new ObjectsToCsv(delegations.map((del, index) => ({ id_delegacion: index + 1, delegacion: del })));
-        await csv1.toDisk('./cleanFilesImproved/cat_delegacion.csv');
-        console.log(`File cat_delegacion.csv created`);
-
-        let csv2 = new ObjectsToCsv(classifications.map((clas, index) => ({ id_clasificacion: index + 1, clasificacion: clas })));
-        await csv2.toDisk('./cleanFilesImproved/cat_clas_con_f_alarma.csv');
-        console.log(`File cat_clas_con_f_alarma.csv created`);
-
-        let csv3 = new ObjectsToCsv(incidents.map((inc, index) => ({ id_tipo_incidente_c4: index + 1, tipo_incidente: inc })));
-        await csv3.toDisk('./cleanFilesImproved/cat_tipo_incidente_c4.csv');
-        console.log(`File cat_tipo_incidente_c4.csv created`);
-
-        let csv4 = new ObjectsToCsv(entryTypes.map((ent, index) => ({ id_tipo_entrada: index + 1, tipo_entrada: ent })));
-        await csv4.toDisk('./cleanFilesImproved/cat_tipo_entrada.csv');
-        console.log(`File cat_tipo_entrada.csv created`);
-
-        let csv5 = new ObjectsToCsv(closureCodes.map((code, index) => ({ id_codigo_cierre: index + 1, codigo_cierre: code, descripcion: null })));
-        await csv5.toDisk('./cleanFilesImproved/cat_incidente_codigo_cierre.csv');
-        console.log(`File cat_incidente_codigo_cierre.csv created`);
-
         // replace the values of the columns with the id of the catalog
         incidentsTable.forEach((incident) => {
             incident.delegacion_inicio = delegations.indexOf(incident.delegacion_inicio) + 1;
@@ -107,10 +87,13 @@ let csvStream = fastcsv.parse()
             incident.codigo_cierre = closureCodes.indexOf(incident.codigo_cierre) + 1;
         });
 
-        // remove all rows with the column 'delagacion_inicio' with value 17 or delegacion_cierre with value 17
+        // remove all rows with the column 'delagacion_inicio' with value 13 (NULL) or delegacion_cierre with value 17
         incidentsTable = incidentsTable.filter((incident) => {
-            return incident.delegacion_inicio !== 17 && incident.delegacion_cierre !== 17;
+            return incident.delegacion_inicio !== 13 && incident.delegacion_cierre !== 13;
         });
+
+        // remove the delegacion with id 13 (NULL)
+        delegations.splice(12, 1);
 
         // clean all the rows that contains ' 00:00:00.0000000' in the column 'fecha_cierre'. 
         incidentsTable = incidentsTable.filter((incident) => {
@@ -149,6 +132,25 @@ let csvStream = fastcsv.parse()
         });
 
 
+        let csv1 = new ObjectsToCsv(delegations.map((del, index) => ({ id_delegacion: index + 1, delegacion: del })));
+        await csv1.toDisk('./cleanFilesImproved/cat_delegacion.csv');
+        console.log(`File cat_delegacion.csv created`);
+
+        let csv2 = new ObjectsToCsv(classifications.map((clas, index) => ({ id_clasificacion: index + 1, clasificacion: clas })));
+        await csv2.toDisk('./cleanFilesImproved/cat_clas_con_f_alarma.csv');
+        console.log(`File cat_clas_con_f_alarma.csv created`);
+
+        let csv3 = new ObjectsToCsv(incidents.map((inc, index) => ({ id_tipo_incidente_c4: index + 1, tipo_incidente: inc })));
+        await csv3.toDisk('./cleanFilesImproved/cat_tipo_incidente_c4.csv');
+        console.log(`File cat_tipo_incidente_c4.csv created`);
+
+        let csv4 = new ObjectsToCsv(entryTypes.map((ent, index) => ({ id_tipo_entrada: index + 1, tipo_entrada: ent })));
+        await csv4.toDisk('./cleanFilesImproved/cat_tipo_entrada.csv');
+        console.log(`File cat_tipo_entrada.csv created`);
+
+        let csv5 = new ObjectsToCsv(closureCodes.map((code, index) => ({ id_codigo_cierre: index + 1, codigo_cierre: code, descripcion: null })));
+        await csv5.toDisk('./cleanFilesImproved/cat_incidente_codigo_cierre.csv');
+        console.log(`File cat_incidente_codigo_cierre.csv created`);
         let csv6 = new ObjectsToCsv(incidentsTable);
         await csv6.toDisk('./cleanFilesImproved/t_incidente.csv');
         console.log(`File incidentes_viales.csv created`);
