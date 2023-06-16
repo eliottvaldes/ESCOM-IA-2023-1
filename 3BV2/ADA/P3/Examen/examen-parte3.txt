@@ -1,0 +1,299 @@
+================================
+ANÁLISIS DE FUNCIONES PARA OBTENER LAS DIAGONALES DEL TABLERO DE AJEDREZ
+================================
+/**
+ * @brief Función que calcula la diagonal derecha del tablero de ajedrez
+ *
+ * @param columna
+ * @param renglón
+ * @return int
+ */
+int diagonalDerecha(int columna, int renglon)
+{
+	return (columna + renglon - 1);
+}
+
+/**
+ * @brief Función que calcula la diagonal izquierda del tablero de ajedrez
+ *
+ * @param columna
+ * @param renglon
+ * @return int -> regresa la cantidad de diagonales existentes
+ */
+int diagonalIzquierda(int columna, int renglon)
+{
+	return (columna + 8 - renglon );
+}
+
+===========================================
+ANÁLISIS DE FUNCIONES GENERALES
+===========================================
+* Recursos disponibles
+vector de renglones
+vector de columnas
+vector solución
+vector diagonal izquierda
+vector diagonal derecha
+
+* FUNCIONES PARA DIAGONALES:
+obtenerDiagonalesIZquierdas(return col+8-renglon)
+obtenerDiagonalesDerechas(col+renglon-1)
+
+* FUNCIONES PARA LÓGICA
+main
+colocaPrimera - coloca la primera reina en cualquier parte del tablero
+coloca7Reinas - función para colocar las 7 reinas restantes dentro del tablero tomando en cuenta los recursos disponibles
+
+===========================================
+ANÁLISIS GENERAL DE FUNCIÓN coloca7Reinas
+===========================================
+* Casos:
+I - que una reina llegue a la 8va columna
+II - Que una reina no encuentre recursos disponibles
+III -  Que una reina encuentre recursos disponibles
+IV - Que la 8va reina encontró los recursos (asumimos que las reinas anteriores ya están colocadas correctamente)
+V - Que al segunda reina intente llegar de la 8va columna a la 9na columna (asumimos que hay backtracking anidado llamando desde la 8ta columna)
+
+* Acciones:
+A - regresar recursos
+B - Apartar recursos
+C - Llamar a la siguiente reina
+D - Consultar recursos
+E - Buscar recursos
+F - Llamar a la siguiente reina
+G - Imprimir
+
+
+* Pseudocódigo:
+if (V) {
+   A;
+} else {
+   if (II) {
+   	A;
+   	F;
+   } else {
+   	if (III) {
+       	B;
+       	C;
+   	} else {
+       	if (IV) {
+           	G;
+       	}
+   	}
+   }
+}
+
+
+===========================================
+ANÁLISIS DETALLADO DE FUNCIÓN coloca7Reinas (Y SUBFUNCIONES)
+===========================================
+* Recursos de Función coloca7Reinas:
+- vector columnas
+- vector solución
+- vector diagonales derechas
+- vector diagonales Izquierdas
+- id_reina (número de reina - renglon)
+
+* ANÁLISIS DE FUNCIONES INTERNAS NECESARIAS
+- imprimir
+- buscarRecursos
+- verificarRecursos
+- liberarRecursos
+- apartarRecursos
+
+=======================================
+
+ANALISIS DE FUNCION 'buscarRecursos'
+* casos:
+I - un elemento del vector columna es 0
+II - un elemento del vector columna es -1
+III - un elemento del vector es mayor a 0
+
+* acciones:
+A - regresar el número de columna
+B - regresar un -1
+C - llama a verificar buscarRecursos
+D - llama recursivamente
+
+* parametros de funcion:
+- vector columnas
+- id_reina
+- vector de diagonales derechas
+- vector de diagonales Izquierdas
+
+================================
+ANÁLISIS DE FUNCIONES PARA OBTENER LAS DIAGONALES DEL TABLERO DE AJEDREZ
+================================
+/**
+ * @brief Función que calcula la diagonal derecha del tablero de ajedrez
+ *
+ * @param columna
+ * @param renglón
+ * @return int
+ */
+int diagonalDerecha(int columna, int renglon)
+{
+	return (columna + renglon - 1);
+}
+
+/**
+ * @brief Funcion que calcula la diagonal izquierda del tablero de ajedrez
+ *
+ * @param columna
+ * @param renglon
+ * @return int -> regresa la cantidad de diagonales existentes
+ */
+int diagonalIzquierda(int columna, int renglon)
+{
+	return (columna + 8 - renglon );
+}
+
+===========================================
+ANALSISIS DE FUNCIONES GENERALES
+===========================================
+* Recursos disponibles
+vector de renglones
+vector de columnas
+vector solucion
+vector diagonal izquierda
+vector diagonal derecha
+
+* FUNCIONES PARA DIAGONALES:
+obtenerDiagonalesIZquierdas(return col+8-renglon)
+obtenerDiagonalesDerechas(col+renglon-1)
+
+* FUNCIONES PARA LOGICA
+main
+colocaPrimera - coloca la primera reina en cualquier parte del tablero
+coloca7Reinas - funcion para colocar las 7 reinas restantes dentro del tablero tomando en cuenta los reursos disponibles
+
+===========================================
+ANÁLISIS GENERAL DE FUNCION coloca7Reinas
+===========================================
+* Casos:
+I - que una reina llegue a la 8va columna
+II - Que una reina no encuentre recursos disponibles
+III -  Que una reina encuentre recursos disponibles
+IV - Que la 8va reina encontró los recursos (asumimos que las reinas anteriores ya estan colocadas correctamente)
+V - Que al segunda reina intente llegar de la 8va columna a la 9na columna (asumimos que hay backtracking anidado llamando desde la 8ta columna)
+
+* Acciones:
+A - regresar recursos
+B - Apartar recursos
+C - Llamar a la siguiente reina
+D - Consultar recursos
+E - Buscar recursos
+F - Llamar a la siguiente reina
+G - Imprimir
+
+
+* Pseudocódigo:
+if (V) {
+   A;
+} else {
+   if (II) {
+   	A;
+   	F;
+   } else {
+   	if (III) {
+       	B;
+       	C;
+   	} else {
+       	if (IV) {
+           	G;
+       	}
+   	}
+   }
+}
+
+
+===========================================
+ANÁLISIS DETALLADO DE FUNCION coloca7Reinas (Y SUBFUNCIONES)
+===========================================
+* Recursos de Funcion coloca7Reinas:
+- vector columnas
+- vector solucion
+- vector diagonales derechas
+- vector diagonales Izquierdas
+- id_reina (numero de reina - renglon)
+
+* ANALISIS DE FUNCIONES INTERNAS NECESARIAS
+- imprimir
+- buscarRecursos
+- verificarRecursos
+- liberarRecursos
+- apartarRecursos
+
+=======================================
+
+ANALISIS DE FUNCION 'buscarRecursos'
+* casos:
+I - un elemento del vector columna es 0
+II - un elemento del vector columna es -1
+III - un elemtno del vector es mayor a 0
+
+* acciones:
+A - regresar el número de columna
+B - regresar un -1
+C - llama a verificar buscarRecursos
+D - llama recursivamente
+
+* parametros de funcion:
+- vector columnas
+- id_reina
+- vector de diagonales derechas
+- vector de diagonales Izquierdas
+
+
+PSEUDOCÓDIGO DE LA FUNCIÓN buscarRecursos
+if(II){
+	return B
+}
+if(III && C){
+	return A
+}
+if(I){
+	return D
+}
+
+============================
+ANÁLISIS DE FUNCIÓN 'verificarRecursos' (Tarea)
+============================
+
+ANALISIS DE FUNCION 'liberarRecursos'
+- no es una función recursiva pero requiere de análisis
+
+pasos a realizar:
+- calcula diagizq y actualiza(regresa) diagizq al vector diagonal izquierda
+- calcula diagder y actualiza(regresa) diagder al vector diagonal derecha
+- guarda en "variable" el contenido del vector respuesta en la posicion id_reina y coloca un 0 en esa posición
+- guarda en el vector columna posición "variable" el valor "variable"
+
+
+============================
+PSEUDOCÓDIGO DE LA FUNCIÓN buscarRecursos
+if(II){
+	return B
+}
+if(III && C){
+	return A
+}
+if(I){
+	return D
+}
+
+============================
+ANÁLISIS DE FUNCIÓN 'verificarRecursos' (Tarea)
+============================
+
+ANALISIS DE FUNCION 'liberarRecursos'
+- no es una función recursiva pero requiere de análisis
+
+pasos a realizar:
+- calcula diagizq y actualiza(regresa) diagizq al vector diagonal izquierda
+- calcula diagder y actualiza(regresa) diagder al vector diagonal derecha
+- guarda en "variable" el contenido del vector respuesta en la posicion id_reina y coloca un 0 en esa posicion
+- guarda en el vector columna posición "variable" el valor "variable"
+
+
+============================
