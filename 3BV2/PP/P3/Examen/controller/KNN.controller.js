@@ -22,7 +22,7 @@ const startProcess = async (file) => {
 
     // call the function to calculate the accuracy
     const accuracy = calculateAccuracy(testResults);
-    console.log('Accuracy: ', accuracy);
+    console.log({ accuracy });
 
 }
 
@@ -125,7 +125,7 @@ const calculateDistances = (trainingData, testData, kNeighbors) => {
         // return the kNeighbors first elements of the sortedDistances array
         dataDistances.push({
             class: irisTest.class,
-            neighbors: sortedDistances.slice(0, kNeighbors)
+            prediction: sortedDistances.slice(0, kNeighbors)
         });
 
 
@@ -158,9 +158,9 @@ const calculateAccuracy = (testResults) => {
 
     // loop through the testResults
     testResults.forEach(result => {
-        const { class: classExpected, neighbors } = result;
+        const { class: classExpected, prediction } = result;
         // verify if the classExpected is equal to the class of the first neighbor
-        if (classExpected === neighbors[0].class) {
+        if (classExpected === prediction[0].class) {
             // increment the correctPredictions
             correctPredictions++;
         }
