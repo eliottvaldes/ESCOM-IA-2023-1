@@ -16,13 +16,21 @@ const startProcess = async (file) => {
 
     // define the number of neighbors
     const kNeighbors = 1;
+    // define the total of testing data
+    const totalTesting = testData.length;
 
     // call the function to calculate distances        
     const testResults = calculateDistances(trainingData, testData, kNeighbors);
 
     // call the function to calculate the accuracy
-    const accuracy = calculateAccuracy(testResults);
-    console.log({ accuracy });
+    const correctPredictions = calculateCorrectPredictions(testResults);
+
+    // call the function to calculate the accuracy
+    const accuracy = calculateAccuracy(correctPredictions, totalTesting);
+
+
+    // show the results
+    console.log({ totalTesting, correctPredictions, accuracy });
 
 }
 
@@ -151,8 +159,8 @@ const calculateEuclideanDistance = (testObject, trainingObj) => {
 }
 
 
-// function to calculate the accuracy
-const calculateAccuracy = (testResults) => {
+// function to count the amount of correct predictions
+const calculateCorrectPredictions = (testResults) => {
     // define the variable to store the correct predictions
     let correctPredictions = 0;
 
@@ -166,13 +174,15 @@ const calculateAccuracy = (testResults) => {
         }
     });
 
-    // calculate the accuracy
-    const accuracy = (correctPredictions / testResults.length);
-
-    // return the accuracy
-    return accuracy;
+    // return the correctPredictions
+    return correctPredictions;
 }
 
+// function to calculate the accuracy
+const calculateAccuracy = (correctPredictions, testDataLength) => {
+    // calculate the accuracy
+    return (correctPredictions / testDataLength);
+}
 
 
 /* 

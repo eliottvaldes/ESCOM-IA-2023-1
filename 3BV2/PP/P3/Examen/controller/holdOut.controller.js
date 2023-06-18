@@ -13,13 +13,23 @@ const startProcess = async (file) => {
     // call the function to separate the irisData in arrays: training and test data
     const { trainingData, testData } = separateData(irisData, uniqueClasses);
 
+    // define the total of testing data
+    const totalTesting = testData.length;
+
     // calculate the mean of the training data by class
     const meanByClass = calculateMeanByClass(uniqueClasses, trainingData);
 
     const testModel = holdOutMatch(testData, meanByClass);
 
-    const accuracy = calculateAccuracy(testModel);
-    console.log({ accuracy });
+    // call the function to calculate the accuracy
+    const correctPredictions = calculateCorrectPredictions(testModel);
+
+    // call the function to calculate the accuracy
+    const accuracy = calculateAccuracy(correctPredictions, totalTesting);
+
+
+    // show the results
+    console.log({ totalTesting, correctPredictions, accuracy });
 
 }
 
@@ -194,9 +204,8 @@ const holdOutMatch = (testData, meanByClass) => {
 }
 
 
-
-// function to calculate the accuracy
-const calculateAccuracy = (testResults) => {
+// function to count the amount of correct predictions
+const calculateCorrectPredictions = (testResults) => {
     // define the variable to store the correct predictions
     let correctPredictions = 0;
 
@@ -210,12 +219,16 @@ const calculateAccuracy = (testResults) => {
         }
     });
 
-    // calculate the accuracy
-    const accuracy = (correctPredictions / testResults.length);
-
-    // return the accuracy
-    return accuracy;
+    // return the correctPredictions
+    return correctPredictions;
 }
+
+// function to calculate the accuracy
+const calculateAccuracy = (correctPredictions, testDataLength) => {
+    // calculate the accuracy
+    return (correctPredictions / testDataLength);
+}
+
 
 /* 
 TEST FUNCTIONS
@@ -223,7 +236,7 @@ TEST FUNCTIONS
 
 let fileName = '';
 fileName = '/../iris-test.data';
-// fileName = '/../iris.data';
+fileName = '/../iris.data';
 const fullPath = __dirname + fileName;
 
 startProcess(fullPath);
