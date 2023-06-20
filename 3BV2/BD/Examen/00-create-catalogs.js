@@ -1,6 +1,6 @@
 const fs = require('fs');
 const fastcsv = require('fast-csv');
-const ObjectsToCsv = require('objects-to-csv');
+ 
 const moment = require('moment');
 
 let delegations = [];
