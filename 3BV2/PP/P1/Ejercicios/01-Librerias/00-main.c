@@ -1,6 +1,6 @@
 /**
  * @file main.c
- * @author your name (you@domain.com)
+ * @author your name eliottvaldes@hotmail.com
  * @brief Archivo que contiene la llamada a las funcioens predefinidas
  * @version 0.1
  * @date 2023-03-28
@@ -20,8 +20,6 @@
 #include "01-generateArrays.h"
 #include "02-printArrays.h"
 #include "03-sequentialSearch.h"
-#include "04-quickSort.h"
-#include "05-binarySearch.h"
 #include "06-bubbleSort.h"
 
 /**
