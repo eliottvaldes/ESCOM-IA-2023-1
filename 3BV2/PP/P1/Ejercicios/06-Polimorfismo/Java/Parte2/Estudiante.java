@@ -1,4 +1,5 @@
 public class Estudiante implements Persona {
+
     private String id;
     private String nombre;
     private String CURP;
