@@ -10,5 +10,5 @@ print(subject_marks)
 subject_marks.sort(key = lambda x: x[1])
 
 # imprimimos la lista ordenada
-print("\nReult:")
+print("\nList sorted:")
 print(subject_marks)

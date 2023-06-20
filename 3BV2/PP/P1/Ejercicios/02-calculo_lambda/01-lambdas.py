@@ -14,7 +14,8 @@ divide = (lambda x: x/random.randint(1,10))
 
 
 # probando las funciones
-print(suma(5))
-print(multiplica(5, 10))
-print(divide(10))
+print(f"La suma de 5 + 15 es: {suma(5)}")
+print(f"La multiplicación de 5 * 10 es: {multiplica(5, 10)}")
+print(f"La división de 10 entre un número aleatorio es: {divide(10)}")
+
 
