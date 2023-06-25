@@ -9,9 +9,9 @@ let habitantesPorDelegacion = [];
 let habitantes = [];
 
 
-// verify if the folder 'cleanFiles' exists if not create it
-if (!fs.existsSync('./cleanFiles')) {
-    fs.mkdirSync('./cleanFiles');
+// verify if the folder 'cleanFiles2022' exists if not create it
+if (!fs.existsSync('./cleanFiles2022')) {
+    fs.mkdirSync('./cleanFiles2022');
 }
 
 let csvStream = fastcsv.parse()
@@ -79,26 +79,13 @@ let csvStream = fastcsv.parse()
                 id_sexo: 2,
                 id_rango_edad: 2,
                 poblacion: element['20A24_M']
-            });
-
-            habitantes.push({
-                id_delegacion,
-                id_sexo: 1,
-                id_rango_edad: 3,
-                poblacion: element['25A29_F']
-            });
-            habitantes.push({
-                id_delegacion,
-                id_sexo: 2,
-                id_rango_edad: 3,
-                poblacion: element['25A29_M']
-            });
+            });            
 
 
         });
 
         let csv6 = new ObjectsToCsv(habitantes);
-        await csv6.toDisk('./cleanFiles/t_delegacion_poblacion.csv');
+        await csv6.toDisk('./cleanFiles2022/t_delegacion_poblacion.csv');
         console.log(`File t_delegacion_poblacion.csv created`);
 
     });
