@@ -11,9 +11,9 @@ let ocupacionVivienda = [];
 let ocupacionCuarto = [];
 
 
-// verify if the folder 'cleanFiles' exists if not create it
-if (!fs.existsSync('./cleanFiles')) {
-    fs.mkdirSync('./cleanFiles');
+// verify if the folder 'cleanFiles2022' exists if not create it
+if (!fs.existsSync('./cleanFiles2022')) {
+    fs.mkdirSync('./cleanFiles2022');
 }
 
 let csvStream = fastcsv.parse()
@@ -47,11 +47,11 @@ let csvStream = fastcsv.parse()
         // creacion de lso archivos csv
 
         const csvVivienda = new ObjectsToCsv(ocupacionVivienda);
-        await csvVivienda.toDisk('./cleanFiles/t_delegacion_ocupantes_por_vivienda.csv');
+        await csvVivienda.toDisk('./cleanFiles2022/t_delegacion_ocupantes_por_vivienda.csv');
         console.log(`Archivo 't_delegacion_ocupantes_por_vivienda.csv' creado con exito`);
 
         const csvCuarto = new ObjectsToCsv(ocupacionCuarto);
-        await csvCuarto.toDisk('./cleanFiles/t_delegacion_ocupantes_por_cuarto.csv');
+        await csvCuarto.toDisk('./cleanFiles2022/t_delegacion_ocupantes_por_cuarto.csv');
         console.log(`Archivo 't_delegacion_ocupantes_por_cuarto.csv' creado con exito`);
 
     });
