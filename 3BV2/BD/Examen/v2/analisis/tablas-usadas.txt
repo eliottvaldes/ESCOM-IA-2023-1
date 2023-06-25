@@ -1,0 +1,36 @@
+-- BASE DE DATOS: 'proyecto_bd'
+
+=========================================================
+-- TABLAS CATALOGO: 
+
+* NOMBRE DE TABLA: 'cat001_clasificacion_alarma'
+* COLUMNAS DE TABLA: 'id_clasificacion', 'clasificacion'
+
+* NOMBRE DE TABLA: 'cat002_codigo_cierre'
+* COLUMNAS DE TABLA: 'id_codigo_cierre', 'codigo_cierre'
+
+* NOMBRE DE TABLA: 'cat003_incidente_c4'
+* COLUMNAS DE TABLA: 'id_incidente_c4', 'incidente_c4'
+
+* NOMBRE DE TABLA: 'cat004_tipo_entrada'
+* COLUMNAS DE TABLA: 'id_tipo_entrada', 'tipo_entrada'
+
+* NOMBRE DE TABLA: 'cat005_delegacion'
+* COLUMNAS DE TABLA: 'id_delegacion', 'delegacion'
+
+* NOMBRE DE TABLA: 'cat006_rango_edad'
+* COLUMNAS DE TABLA: 'id_rango_edad', 'rango_edad'
+
+* NOMBRE DE TABLA: 'cat007_sexo'
+* COLUMNAS DE TABLA: 'id_sexo', 'sexo_codigo', 'sexo_descripcion'
+
+=========================================================
+-- TABLAS DE CONSULTA: 
+* NOMBRE DE TABLA: 'tbl001_incidente'
+* COLUMNAS DE TABLA: 'incidente_folio','id_delegacion_inicio','id_delegacion_cierre','id_incidente_c4','id_tipo_entrada','id_clasificacion_alarma','id_codigo_cierre','timestamp_creacion','timestamp_cierre','geopoint'
+
+* NOMBRE DE TABLA: 'tbl002_poblacion_por_delegacion'
+* COLUMNAS DE TABLA: 'id_delegacion','id_sexo', 'id_rango_edad', 'poblacion'
+
+* NOMBRE DE TABLA: 'tbl003_ocupantes_por_vivienda'
+* COLUMNAS DE TABLA: 'id_delegacion', 'ocupantes'
