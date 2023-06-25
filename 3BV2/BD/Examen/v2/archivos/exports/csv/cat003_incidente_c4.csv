@@ -1,0 +1,17 @@
+id_tipo_incidente_c4,tipo_incidente
+1,Accidente automovilístico
+2,Atropellado
+3,Choque con lesionados
+4,Choque con prensados
+5,Choque sin lesionados
+6,Ciclista
+7,Ferroviario
+8,Incidente de tránsito
+9,Monopatín
+10,Motociclista
+11,Otros
+12,Persona atrapada / desbarrancada
+13,Persona atropellada
+14,Vehiculo desbarrancado
+15,Vehículo atrapadovarado
+16,Volcadura
