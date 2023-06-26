@@ -11,6 +11,8 @@ let incidents = [];
 let entryTypes = [];
 let closureCodes = [];
 let incidentsTable = [];
+let weekDays = [];
+let moths = [];
 
 const stream = fs.createReadStream('./archivos/datasets/incidentes/inViales_2022_2023.csv');
 
@@ -67,6 +69,13 @@ let csvStream = fastcsv.parse()
         // CODIGO CIERRE
         if (!closureCodes.includes(data[11])) closureCodes.push(data[11]);
 
+        // DIA DE LA SEMANA
+        if (data[3] != 'NA') {
+            if (!weekDays.includes(data[3])) weekDays.push(data[3]);
+        }
+
+        // MES DEL AÑO
+
         if (data[8] != 'NA' && data[13] != 'NA') {
             // define the structure of the table 'tbl001_incidente'
             incidentsTable.push({
@@ -77,6 +86,7 @@ let csvStream = fastcsv.parse()
                 id_tipo_entrada: data[13],
                 id_clasificacion: data[12],
                 id_codigo_cierre: data[11],
+                id_dia_semana: data[3],
                 fecha_creacion: data[1],
                 hora_creacion: data[2],
                 fecha_cierre: data[4],
@@ -96,12 +106,14 @@ let csvStream = fastcsv.parse()
         entryTypes.shift();
         closureCodes.shift();
         incidentsTable.shift();
+        weekDays.shift();
 
         // sort the arrays alphabetically
         delegations.sort();
         classifications.sort();
         incidents.sort();
         entryTypes.sort();
+        weekDays.sort();
 
         // replace the values of the columns with the id of the catalog
         incidentsTable.forEach((incident) => {
@@ -111,6 +123,7 @@ let csvStream = fastcsv.parse()
             incident.id_tipo_entrada = entryTypes.indexOf(incident.id_tipo_entrada) + 1;
             incident.id_clasificacion = classifications.indexOf(incident.id_clasificacion) + 1;
             incident.id_codigo_cierre = closureCodes.indexOf(incident.id_codigo_cierre) + 1;
+            incident.id_dia_semana = weekDays.indexOf(incident.id_dia_semana) + 1;
 
             // parse the dates to YYYY-MM-DD
             incident.fecha_creacion = moment(incident.fecha_creacion, 'YYYY-MM-DD').format('YYYY-MM-DD');
@@ -161,6 +174,10 @@ let csvStream = fastcsv.parse()
         let csv5 = new ObjectsToCsv(delegations.map((del, index) => ({ id_delegacion: index + 1, delegacion: del })));
         await csv5.toDisk(`${mainPath}/csv/cat005_delegacion.csv`);
         console.log(`File cat005_delegacion.csv created`);
+
+        let csv6 = new ObjectsToCsv(weekDays.map((day, index) => ({ id_dia_semana: index + 1, dia: day })));
+        await csv6.toDisk(`${mainPath}/csv/cat008_dia_semana.csv`);
+        console.log(`File cat008_dia_semana.csv created`);
 
 
         // show the total of rows in the table incidents
