@@ -1,5 +1,3 @@
-id,subcat_sed,direccion,cve_delg,ubicacion,nombre,delegacion,superficie,perimetro,categoria
-id,0,direccion,cve_delg,ubicacion,nombre,delegacion,superficie,perimetro,0
 0,1,Román Álvarez Moreno,2,,,Azcapotzalco,6660.02755418,329.26473795,1
 1,2,Avenida Canal deTezontle,8,,,Iztacalco,2917.25783681,272.243614174,1
 2,3,Canal Río Churubusco,8,,CAMELLON EJE 4 OTE. (RIO CHURUBUSCO),Iztacalco,1086.30564576,425.043655518,2
