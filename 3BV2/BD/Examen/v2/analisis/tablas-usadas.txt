@@ -24,6 +24,15 @@
 * NOMBRE DE TABLA: 'cat007_sexo'
 * COLUMNAS DE TABLA: 'id_sexo', 'sexo_codigo', 'sexo_descripcion'
 
+* NOMBRE DE TABLA: 'cat008_dia_semana'
+* COLUMNAS DE TABLA: 'id_dia_semana', 'dia_semana'
+
+* NOMBRE DE TABLA: 'cat009_categoria_area_verde'
+* COLUMNAS DE TABLA: 'id_categoria', 'categoria'
+
+* NOMBRE DE TABLA: 'cat010_subcategoria_area_verde'
+* COLUMNAS DE TABLA: 'id_subcategoria', 'subcategoria'
+
 =========================================================
 -- TABLAS DE CONSULTA: 
 * NOMBRE DE TABLA: 'tbl001_incidente'
@@ -34,3 +43,6 @@
 
 * NOMBRE DE TABLA: 'tbl003_ocupantes_por_vivienda'
 * COLUMNAS DE TABLA: 'id_delegacion', 'ocupantes'
+
+* NOMBRE DE TABLA: 'tbl004_areas'
+* COLUMNAS DE TABLA: “subcat_sed”,“direccion”,“cve_delg”,“ubicacion”,“nombre”,“delegacion”,“superficie”, “perimetro”, “categoria“.
