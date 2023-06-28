@@ -61,15 +61,15 @@ let csvStream = fastcsv.parse()
 
         areas.push({
             id: data[0],
-            subcat_sed: data[6],
+            subcat_sed: data[6] ?? '',
             direccion: data[12],
             cve_delg: data[14],
             ubicacion: data[16],
             nombre: data[17],
-            delegacion: data[18],
+            // delegacion: data[18],
             superficie: data[24],
             perimetro: data[26],
-            categoria: data[23],
+            categoria: data[23] ?? '',
         });
 
 
@@ -78,10 +78,14 @@ let csvStream = fastcsv.parse()
         categorias.shift();
         subcategorias.shift();
 
-        areas.forEach((incident) => {
+        areas.forEach((incident) => {                       
+            // obtener el index de la categoria y subcategoria
             incident.subcat_sed = subcategorias.indexOf(incident.subcat_sed) + 1;
-            incident.categoria = categorias.indexOf(incident.categoria) + 1;
+            incident.categoria = categorias.indexOf(incident.categoria) + 1;                                    
         });
+
+        // remover las areas que tienen una subcat_sed igual a 0 o una categoria igual a 0
+        areas = areas.filter((incident) => incident.subcat_sed != 0 && incident.categoria != 0);
 
         let csv1 = new ObjectsToCsv(categorias.map((clas, index) => ({ id_categoria: index + 1, categoria: clas })));
         await csv1.toDisk(`${mainPath}/csv/cat009_categoria_area_verde.csv`);
